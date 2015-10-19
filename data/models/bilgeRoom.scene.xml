@@ -1,0 +1,42 @@
+<Model name="bilgeRoom" geometry="bilgeRoom.geo">
+
+	<Mesh name="sludge1" material="bilgeRoom/lambert5.material.xml" tx="0" ty="-4.5" tz="-22" sx="200" sy="5" sz="200" batchStart="0" batchCount="36" vertRStart="0" vertREnd="23" />
+	<Mesh name="mainPlatform1" material="bilgeRoom/lambert2.material.xml" tx="0" ty="-0.8" tz="-22" sx="25" sy="3" sz="25" batchStart="36" batchCount="36" vertRStart="24" vertREnd="47" />
+	<Mesh name="plat5" material="bilgeRoom/lambert2.material.xml" tx="30" ty="-2" tz="-2" sx="10" sy="1" sz="10" batchStart="72" batchCount="36" vertRStart="48" vertREnd="71" />
+	<Mesh name="plat6" material="bilgeRoom/lambert2.material.xml" tx="30" ty="-2" tz="-42" sx="10" sy="1" sz="10" batchStart="108" batchCount="36" vertRStart="72" vertREnd="95" />
+	<Mesh name="plat7" material="bilgeRoom/lambert2.material.xml" tx="-30" ty="-2" tz="-2" sx="10" sy="1" sz="10" batchStart="144" batchCount="36" vertRStart="96" vertREnd="119" />
+	<Mesh name="plat8" material="bilgeRoom/lambert2.material.xml" tx="-30" ty="-2" tz="-42" sx="10" sy="1" sz="10" batchStart="180" batchCount="36" vertRStart="120" vertREnd="143" />
+	<Mesh name="entrancePlat1" material="bilgeRoom/lambert2.material.xml" tx="0" ty="-1.5" tz="-0.745139" sx="15" sy="1.75" sz="15" batchStart="216" batchCount="36" vertRStart="144" vertREnd="167" />
+	<Mesh name="exitPlatform1" material="bilgeRoom/lambert2.material.xml" tx="0" ty="-1.5" tz="-75.007" sx="15" sy="1.75" sz="66.8597" batchStart="252" batchCount="36" vertRStart="168" vertREnd="191" />
+	<Mesh name="weedunk_portals_pTorus3" material="bilgeRoom/spawners.material.xml" tx="-30.0141" ty="-1.42833" tz="-42.0009" sx="0.230498" sy="0.230498" sz="0.230498" batchStart="288" batchCount="420" vertRStart="192" vertREnd="271" />
+	<Mesh name="pPipe5" material="bilgeRoom/arch.material.xml" tx="17.6163" ty="5.79557" tz="-73.6564" rx="90" ry="0" rz="-90" sx="7.50477" sy="14.1356" sz="7.42742" batchStart="708" batchCount="1575" vertRStart="272" vertREnd="1319" />
+	<Mesh name="openableTunnelGrate3" material="bilgeRoom/grate.material.xml" tx="11.1101" ty="3.2179" tz="-73.5755" sx="0.671002" sy="0.66912" sz="0.559663" batchStart="2283" batchCount="1812" vertRStart="1320" vertREnd="2195" />
+	<Mesh name="weedunk_portals_pTorus4" material="bilgeRoom/spawners.material.xml" tx="-30.0141" ty="-1.42833" tz="-2.03841" sx="0.230498" sy="0.230498" sz="0.230498" batchStart="4095" batchCount="420" vertRStart="2196" vertREnd="2275" />
+	<Mesh name="weedunk_portals_pTorus5" material="bilgeRoom/spawners.material.xml" tx="30.0337" ty="-1.42833" tz="-2.03841" sx="0.230498" sy="0.230498" sz="0.230498" batchStart="4515" batchCount="420" vertRStart="2276" vertREnd="2355" />
+	<Mesh name="weedunk_portals_pTorus6" material="bilgeRoom/spawners.material.xml" tx="30.0337" ty="-1.42833" tz="-41.8957" sx="0.230498" sy="0.230498" sz="0.230498" batchStart="4935" batchCount="420" vertRStart="2356" vertREnd="2435" />
+	<Mesh name="weedunk_portals_pTorus7" material="bilgeRoom/spawners.material.xml" tx="0.071815" ty="0.77457" tz="-21.9355" sx="0.230498" sy="0.230498" sz="0.230498" batchStart="5355" batchCount="420" vertRStart="2436" vertREnd="2515" />
+	<Mesh name="pPipe1" material="bilgeRoom/lambert4.material.xml" tx="-33.0104" ty="-1.49321" tz="0.448789" sx="0.430097" sy="0.328599" sz="0.430097" batchStart="5775" batchCount="600" vertRStart="2516" vertREnd="2668" />
+	<Mesh name="pSphere1" material="bilgeRoom/lambert3.material.xml" tx="-33.0104" ty="-1.35897" tz="0.448789" sx="0.283195" sy="0.283195" sz="0.283195" batchStart="6375" batchCount="270" vertRStart="2669" vertREnd="2719" />
+	<Mesh name="pPipe6" material="bilgeRoom/lambert4.material.xml" tx="33.0729" ty="-1.49321" tz="0.448789" sx="0.430097" sy="0.328599" sz="0.430097" batchStart="6645" batchCount="600" vertRStart="2720" vertREnd="2872" />
+	<Mesh name="pSphere2" material="bilgeRoom/lambert3.material.xml" tx="33.0729" ty="-1.35897" tz="0.448789" sx="0.283195" sy="0.283195" sz="0.283195" batchStart="7245" batchCount="270" vertRStart="2873" vertREnd="2923" />
+	<Mesh name="pPipe7" material="bilgeRoom/lambert4.material.xml" tx="33.0729" ty="-1.49321" tz="-44.5049" sx="0.430097" sy="0.328599" sz="0.430097" batchStart="7515" batchCount="600" vertRStart="2924" vertREnd="3076" />
+	<Mesh name="pSphere3" material="bilgeRoom/lambert3.material.xml" tx="33.0729" ty="-1.35897" tz="-44.5049" sx="0.283195" sy="0.283195" sz="0.283195" batchStart="8115" batchCount="270" vertRStart="3077" vertREnd="3127" />
+	<Mesh name="pPipe8" material="bilgeRoom/lambert4.material.xml" tx="-32.9491" ty="-1.49321" tz="-44.5049" sx="0.430097" sy="0.328599" sz="0.430097" batchStart="8385" batchCount="600" vertRStart="3128" vertREnd="3280" />
+	<Mesh name="pSphere4" material="bilgeRoom/lambert3.material.xml" tx="-32.9491" ty="-1.35897" tz="-44.5049" sx="0.283195" sy="0.283195" sz="0.283195" batchStart="8985" batchCount="270" vertRStart="3281" vertREnd="3331" />
+	<Mesh name="polySurface116" material="bilgeRoom/f2Wall_mat.material.xml" batchStart="9255" batchCount="1572" vertRStart="3332" vertREnd="3655" />
+	<Mesh name="polySurface117" material="bilgeRoom/overflow_mat.material.xml" batchStart="10827" batchCount="600" vertRStart="3656" vertREnd="3863" />
+	<Mesh name="polySurface118" material="bilgeRoom/overflow_mat.material.xml" batchStart="11427" batchCount="48" vertRStart="3864" vertREnd="3881" />
+	<Mesh name="polySurface119" material="bilgeRoom/overflow_mat.material.xml" batchStart="11475" batchCount="48" vertRStart="3882" vertREnd="3899" />
+	<Mesh name="polySurface120" material="bilgeRoom/overflow_mat.material.xml" batchStart="11523" batchCount="48" vertRStart="3900" vertREnd="3917" />
+	<Mesh name="polySurface121" material="bilgeRoom/overflow_mat.material.xml" batchStart="11571" batchCount="48" vertRStart="3918" vertREnd="3935" />
+	<Mesh name="polySurface122" material="bilgeRoom/overflow_mat.material.xml" batchStart="11619" batchCount="48" vertRStart="3936" vertREnd="3953" />
+	<Mesh name="polySurface123" material="bilgeRoom/overflow_mat.material.xml" batchStart="11667" batchCount="48" vertRStart="3954" vertREnd="3971" />
+	<Mesh name="polySurface124" material="bilgeRoom/overflow_mat.material.xml" batchStart="11715" batchCount="600" vertRStart="3972" vertREnd="4179" />
+	<Mesh name="polySurface125" material="bilgeRoom/overflow_mat.material.xml" batchStart="12315" batchCount="48" vertRStart="4180" vertREnd="4197" />
+	<Mesh name="polySurface126" material="bilgeRoom/overflow_mat.material.xml" batchStart="12363" batchCount="48" vertRStart="4198" vertREnd="4215" />
+	<Mesh name="polySurface127" material="bilgeRoom/overflow_mat.material.xml" batchStart="12411" batchCount="48" vertRStart="4216" vertREnd="4233" />
+	<Mesh name="polySurface128" material="bilgeRoom/overflow_mat.material.xml" batchStart="12459" batchCount="48" vertRStart="4234" vertREnd="4251" />
+	<Mesh name="polySurface129" material="bilgeRoom/overflow_mat.material.xml" batchStart="12507" batchCount="48" vertRStart="4252" vertREnd="4269" />
+	<Mesh name="polySurface130" material="bilgeRoom/overflow_mat.material.xml" batchStart="12555" batchCount="48" vertRStart="4270" vertREnd="4287" />
+	<Mesh name="polySurface131" material="bilgeRoom/f2Wall_mat.material.xml" tx="-162.122" ty="0" tz="0" batchStart="12603" batchCount="720" vertRStart="4288" vertREnd="4447" />
+</Model>

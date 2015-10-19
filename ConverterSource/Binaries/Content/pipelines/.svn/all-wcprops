@@ -1,0 +1,23 @@
+K 25
+svn:wc:ra_dav:version-url
+V 56
+/weedunks/!svn/ver/53/Horde3D/Binaries/Content/pipelines
+END
+hdr.pipeline.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/weedunks/!svn/ver/53/Horde3D/Binaries/Content/pipelines/hdr.pipeline.xml
+END
+deferred.pipeline.xml
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/weedunks/!svn/ver/53/Horde3D/Binaries/Content/pipelines/deferred.pipeline.xml
+END
+forward.pipeline.xml
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/weedunks/!svn/ver/53/Horde3D/Binaries/Content/pipelines/forward.pipeline.xml
+END

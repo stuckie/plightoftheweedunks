@@ -1,0 +1,4 @@
+<Model name="northGate" geometry="northGate.geo">
+
+	<Mesh name="northGate" material="northGate/arch_mat.material.xml" tx="-67.2386" ty="18.3619" tz="238.174" rx="90" ry="0" rz="-0" sx="16.3" sy="47.151" sz="16.8092" batchStart="0" batchCount="1575" vertRStart="0" vertREnd="1047" />
+</Model>

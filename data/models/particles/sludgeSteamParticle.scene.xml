@@ -1,0 +1,5 @@
+<Group>
+	<Emitter name="SludgeSteamParticles" material="particles/sludgeParticle.material.xml" effect="sludgeSteamParticle.effect.xml"
+			 maxCount="100" respawnCount="-1" delay="0.01" emissionRate="5.0" spreadAngle="60"
+			 forceX="0" forceY="0.0" forceZ="0" />
+</Group>

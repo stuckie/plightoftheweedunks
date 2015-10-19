@@ -1,0 +1,4 @@
+<Model name="conveyorTower" geometry="conveyorTower.geo">
+
+	<Mesh name="conveyorTower" material="conveyorTower/conveyorTower_mat.material.xml" tx="-26.5214" ty="1.12565" tz="132.655" rx="-0" ry="90" rz="0" sx="1.35192" sy="0.948121" sz="0.948121" batchStart="0" batchCount="969" vertRStart="0" vertREnd="314" />
+</Model>

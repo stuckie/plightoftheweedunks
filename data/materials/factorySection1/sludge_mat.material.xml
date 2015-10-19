@@ -1,0 +1,6 @@
+<Material>
+	<Shader source="sludge.shader.xml" />
+    <TexUnit unit="1" map="wave_Normals1.tga" type="2D" />
+
+	<TexUnit unit="0" map="sludge_Diffuse.tga" />
+</Material>

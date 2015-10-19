@@ -1,0 +1,4 @@
+<Model name="raisedFloor3" geometry="raisedFloor3.geo">
+
+	<Mesh name="raisedFloor3" material="raisedFloor3/raisedStepsAndPipe_mat.material.xml" tx="-26.9224" ty="-19.9877" tz="62.2783" rx="-0" ry="-90" rz="0" batchStart="0" batchCount="96" vertRStart="0" vertREnd="51" />
+</Model>

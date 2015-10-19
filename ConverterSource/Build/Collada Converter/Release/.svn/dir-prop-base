@@ -1,0 +1,17 @@
+K 10
+svn:ignore
+V 167
+BuildLog.htm
+ColladaConv.exe.intermediate.manifest
+ColladaConv.pdb
+converter.obj
+daeMain.obj
+main.obj
+mt.dep
+optimizer.obj
+utils.obj
+utXMLParser.obj
+vc80.idb
+vc80.pdb
+
+END

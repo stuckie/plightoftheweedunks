@@ -1,0 +1,4 @@
+<Model name="mulchPipe63_broke" geometry="mulchPipe63_broke.geo">
+
+	<Mesh name="mulchPipe63_broke" material="mulchPipe63_broke/mulchPipeBroke_mat.material.xml" tx="-45.2246" ty="52.6415" tz="131.148" rx="-0" ry="-45" rz="0" batchStart="0" batchCount="912" vertRStart="0" vertREnd="288" />
+</Model>

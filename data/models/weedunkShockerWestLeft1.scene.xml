@@ -1,0 +1,4 @@
+<Model name="weedunkShockerWestLeft1" geometry="weedunkShockerWestLeft1.geo">
+
+	<Mesh name="weedunkShockerWestLeft1" material="weedunkShockerWestLeft1/weedunkShocker_mat.material.xml" tx="-91.1488" ty="14.1752" tz="218.278" batchStart="0" batchCount="936" vertRStart="0" vertREnd="294" />
+</Model>

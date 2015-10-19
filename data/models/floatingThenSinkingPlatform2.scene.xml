@@ -1,0 +1,4 @@
+<Model name="floatingThenSinkingPlatform2" geometry="floatingThenSinkingPlatform2.geo">
+
+	<Mesh name="floatingThenSinkingPlatform2" material="floatingThenSinkingPlatform2/brokenBridge_mat.material.xml" tx="-66.7472" ty="12.9027" tz="239.799" batchStart="0" batchCount="462" vertRStart="0" vertREnd="281" />
+</Model>

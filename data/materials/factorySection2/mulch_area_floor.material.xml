@@ -1,0 +1,5 @@
+<Material>
+	<Shader source="skinning.shader.xml" />
+
+	<TexUnit unit="0" map="block_sections_texture_v3.tga" />
+</Material>

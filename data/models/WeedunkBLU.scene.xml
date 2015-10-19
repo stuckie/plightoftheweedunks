@@ -1,0 +1,72 @@
+<Model name="weedunkBLU" geometry="weedunkBLU.geo">
+	<Joint name="Root" tx="0.018826" ty="0.868333" tz="0" rx="-0" ry="0" rz="90" jointIndex="1">
+		<Joint name="Pelvis" jointIndex="2">
+			<Joint name="Spine1" tx="0.603116" ty="0" tz="0" jointIndex="3">
+				<Joint name="Spine2" tx="0.721755" ty="0" tz="0" jointIndex="4">
+					<Joint name="Head" tx="0.626451" ty="0" tz="0" jointIndex="5">
+						<Joint name="LtEar1" tx="0.776618" ty="-0.795962" tz="0" rx="-0" ry="0" rz="-82.2165" jointIndex="6">
+							<Joint name="LtEar2" tx="1.24618" ty="0" tz="0" rx="-0" ry="0" rz="14.5733" jointIndex="7">
+								<Joint name="LtEar3" tx="1.19098" ty="0" tz="0" rx="-0" ry="0" rz="-22.3569" jointIndex="8" />
+							</Joint>
+						</Joint>
+						<Joint name="RtEar1" tx="0.776615" ty="0.795962" tz="0" rx="-0" ry="180" rz="-82.2165" jointIndex="9">
+							<Joint name="RtEar2" tx="-1.24618" ty="-8e-006" tz="0" rx="-0" ry="0" rz="14.5733" jointIndex="10">
+								<Joint name="RtEar3" tx="-1.19098" ty="9e-006" tz="0" rx="-0" ry="0" rz="-22.3569" jointIndex="11" />
+							</Joint>
+						</Joint>
+						<Joint name="Brain_Attach" tx="2" ty="0" tz="0" jointIndex="12" />
+					</Joint>
+					<Joint name="LtArmClavicle" tx="0.323604" ty="-0.316331" tz="0" rx="-0" ry="0" rz="-90" jointIndex="13">
+						<Joint name="LtArmShoulder" tx="0.738683" ty="0.037751" tz="0" jointIndex="14">
+							<Joint name="LtArmElbow" tx="0.540219" ty="0" tz="-0.032028" jointIndex="15">
+								<Joint name="LtArmWrist" tx="0.596368" ty="0" tz="0.003631" jointIndex="16">
+									<Joint name="LtPinkyRoot" tx="0.300124" ty="-0.05459" tz="-0.174564" jointIndex="17">
+										<Joint name="LtPinkyMid" tx="0.20149" ty="-0.013544" tz="0" jointIndex="18" />
+									</Joint>
+									<Joint name="LtIndexRoot" tx="0.291486" ty="-0.05459" tz="0.180333" jointIndex="19">
+										<Joint name="LtIndexMid" tx="0.208391" ty="-0.013544" tz="0" jointIndex="20" />
+									</Joint>
+									<Joint name="LtThumbRoot" tx="0.108553" ty="-0.122526" tz="0.335623" rx="65.5735" ry="180" rz="-106.542" jointIndex="21">
+										<Joint name="LtThumbMid" tx="0.175256" ty="0" tz="0" rx="-81.4058" ry="165.2" rz="-165.958" jointIndex="22" />
+									</Joint>
+								</Joint>
+							</Joint>
+						</Joint>
+					</Joint>
+					<Joint name="RtArmClavicle" tx="0.323606" ty="0.316332" tz="0" rx="-0" ry="180" rz="-90" jointIndex="23">
+						<Joint name="RtArmShoulder" tx="-0.738685" ty="-0.03775" tz="0" jointIndex="24">
+							<Joint name="RtArmElbow" tx="-0.54022" ty="0" tz="0.032028" jointIndex="25">
+								<Joint name="RtArmWrist" tx="-0.59637" ty="0" tz="-0.003631" jointIndex="26">
+									<Joint name="RtPinkyRoot" tx="-0.30012" ty="0.05459" tz="0.174564" jointIndex="27">
+										<Joint name="RtPinkyMid" tx="-0.20149" ty="0.01355" tz="0" jointIndex="28" />
+									</Joint>
+									<Joint name="RtIndexRoot" tx="-0.29148" ty="0.05459" tz="-0.180333" jointIndex="29">
+										<Joint name="RtIndexMid" tx="-0.20839" ty="0.01355" tz="0" jointIndex="30" />
+									</Joint>
+									<Joint name="RtThumbRoot" tx="-0.10855" ty="0.12253" tz="-0.335623" rx="65.5735" ry="180" rz="-106.542" jointIndex="31">
+										<Joint name="RtThumbMid" tx="-0.175256" ty="2e-006" tz="3e-006" rx="-81.4058" ry="165.2" rz="-165.958" jointIndex="32" />
+									</Joint>
+									<Joint name="Hammer_Attach" tx="-0.1" ty="0.2" tz="0" rx="-0" ry="24" rz="0" jointIndex="33">
+										<Mesh name="Hammer" material="weedunkBLU/hammerTEX.material.xml" batchStart="4812" batchCount="192" vertRStart="1095" vertREnd="1214" />
+									</Joint>
+								</Joint>
+							</Joint>
+						</Joint>
+					</Joint>
+				</Joint>
+			</Joint>
+			<Joint name="LtHip" tx="-0.188266" ty="-0.68635" tz="-0.024538" rx="0.0924754" ry="180" rz="0" jointIndex="34">
+				<Joint name="LtKnee" tx="0.352265" ty="0" tz="-0.028962" jointIndex="35">
+					<Joint name="LtAnkle" tx="0.26106" ty="0" tz="0.028962" rx="0.0924754" ry="180" rz="-90" jointIndex="36" />
+				</Joint>
+			</Joint>
+			<Joint name="RtHip" tx="-0.188266" ty="0.68635" tz="-0.024538" rx="-0.00595876" ry="0" rz="0" jointIndex="37">
+				<Joint name="RtKnee" tx="-0.352264" ty="0" tz="0.028962" jointIndex="38">
+					<Joint name="RtAnkle" tx="-0.26106" ty="0" tz="-0.028962" rx="0.00595876" ry="0" rz="-90" jointIndex="39" />
+				</Joint>
+			</Joint>
+		</Joint>
+	</Joint>
+
+	<Mesh name="weedunkMESH" material="weedunkBLU/phong1.material.xml" batchStart="0" batchCount="4812" vertRStart="0" vertREnd="1094" />
+</Model>

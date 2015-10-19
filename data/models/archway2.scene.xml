@@ -1,0 +1,4 @@
+<Model name="archway2" geometry="archway2.geo">
+
+	<Mesh name="archway2" material="archway2/arch_mat.material.xml" batchStart="0" batchCount="1575" vertRStart="0" vertREnd="1047" />
+</Model>

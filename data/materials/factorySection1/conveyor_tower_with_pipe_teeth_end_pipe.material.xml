@@ -1,0 +1,5 @@
+<Material>
+	<Shader source="skinning.shader.xml" />
+
+	<TexUnit unit="0" map="teeth_pipe_section_v3.tga" />
+</Material>

@@ -1,0 +1,4 @@
+<Model name="suctionPipe1" geometry="suctionPipe1.geo">
+
+	<Mesh name="suctionPipe1" material="suctionPipe1/lambert2.material.xml" batchStart="0" batchCount="9171" vertRStart="0" vertREnd="2283" />
+</Model>

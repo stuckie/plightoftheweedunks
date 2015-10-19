@@ -1,0 +1,6 @@
+<Material>
+	<Shader source="skinning.shader.xml" />
+
+	<TexUnit unit="0" map="sludge_Diffuse.tga" />
+    <TexUnit unit="1" map="wave_Normals1.tga" type="2D" />
+</Material>

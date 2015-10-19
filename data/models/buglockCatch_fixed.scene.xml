@@ -1,0 +1,4 @@
+<Model name="buglockCatch_fixed" geometry="buglockCatch_fixed.geo">
+
+	<Mesh name="buglockCatch_fixed" material="buglockCatch_fixed/wall_mat.material.xml" tx="-0.008321" ty="-9.39693" tz="-0.00838" sx="0.1" sy="0.1" sz="0.1" batchStart="0" batchCount="159" vertRStart="0" vertREnd="48" />
+</Model>

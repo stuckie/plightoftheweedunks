@@ -1,0 +1,4 @@
+<Model name="bugStairsBreakableBoards" geometry="bugStairsBreakableBoards.geo">
+
+	<Mesh name="bugStairsBreakableBoards" material="bugStairsBreakableBoards/breakableBoards_mat.material.xml" tx="-26.4676" ty="6.15359" tz="156.416" rx="90" ry="0" rz="90" batchStart="0" batchCount="225" vertRStart="0" vertREnd="128" />
+</Model>

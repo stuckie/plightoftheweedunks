@@ -1,0 +1,179 @@
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/weedunks/!svn/ver/238/Horde3D/Source/Collada%20Converter
+END
+daeMain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/weedunks/!svn/ver/62/Horde3D/Source/Collada%20Converter/daeMain.cpp
+END
+daeLibLights.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/weedunks/!svn/ver/62/Horde3D/Source/Collada%20Converter/daeLibLights.h
+END
+utils.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/weedunks/!svn/ver/57/Horde3D/Source/Collada%20Converter/utils.cpp
+END
+daeMain.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/weedunks/!svn/ver/62/Horde3D/Source/Collada%20Converter/daeMain.h
+END
+Collada Converter.depend
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/weedunks/!svn/ver/53/Horde3D/Source/Collada%20Converter/Collada%20Converter.depend
+END
+utils.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/weedunks/!svn/ver/57/Horde3D/Source/Collada%20Converter/utils.h
+END
+daeCommon.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/weedunks/!svn/ver/53/Horde3D/Source/Collada%20Converter/daeCommon.h
+END
+converter.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/weedunks/!svn/ver/238/Horde3D/Source/Collada%20Converter/converter.cpp
+END
+daeLibPhysicsMaterial.h
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/weedunks/!svn/ver/53/Horde3D/Source/Collada%20Converter/daeLibPhysicsMaterial.h
+END
+daeLibAnimations.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/weedunks/!svn/ver/53/Horde3D/Source/Collada%20Converter/daeLibAnimations.h
+END
+Collada Converter.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/weedunks/!svn/ver/62/Horde3D/Source/Collada%20Converter/Collada%20Converter.vcproj
+END
+daeLibGeometries.h
+K 25
+svn:wc:ra_dav:version-url
+V 75
+/weedunks/!svn/ver/53/Horde3D/Source/Collada%20Converter/daeLibGeometries.h
+END
+Collada Converter.cbp
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/weedunks/!svn/ver/53/Horde3D/Source/Collada%20Converter/Collada%20Converter.cbp
+END
+daeLibVisualScenes.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/weedunks/!svn/ver/217/Horde3D/Source/Collada%20Converter/daeLibVisualScenes.h
+END
+daeLibImages.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/weedunks/!svn/ver/53/Horde3D/Source/Collada%20Converter/daeLibImages.h
+END
+daeLibControllers.h
+K 25
+svn:wc:ra_dav:version-url
+V 76
+/weedunks/!svn/ver/53/Horde3D/Source/Collada%20Converter/daeLibControllers.h
+END
+converter.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/weedunks/!svn/ver/113/Horde3D/Source/Collada%20Converter/converter.h
+END
+Collada Converter.vcproj.UAD.s.campbell.user
+K 25
+svn:wc:ra_dav:version-url
+V 103
+/weedunks/!svn/ver/53/Horde3D/Source/Collada%20Converter/Collada%20Converter.vcproj.UAD.s.campbell.user
+END
+daeLibCameras.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/weedunks/!svn/ver/62/Horde3D/Source/Collada%20Converter/daeLibCameras.h
+END
+Collada Converter.layout
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/weedunks/!svn/ver/53/Horde3D/Source/Collada%20Converter/Collada%20Converter.layout
+END
+optimizer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/weedunks/!svn/ver/53/Horde3D/Source/Collada%20Converter/optimizer.cpp
+END
+main.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/weedunks/!svn/ver/113/Horde3D/Source/Collada%20Converter/main.cpp
+END
+daeLibEffects.h
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/weedunks/!svn/ver/53/Horde3D/Source/Collada%20Converter/daeLibEffects.h
+END
+Collada Converter.vcproj.user
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/weedunks/!svn/ver/53/Horde3D/Source/Collada%20Converter/Collada%20Converter.vcproj.user
+END
+daeLibMaterials.h
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/weedunks/!svn/ver/53/Horde3D/Source/Collada%20Converter/daeLibMaterials.h
+END
+optimizer.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/weedunks/!svn/ver/53/Horde3D/Source/Collada%20Converter/optimizer.h
+END
+daeLibPhysicsScenes.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/weedunks/!svn/ver/57/Horde3D/Source/Collada%20Converter/daeLibPhysicsScenes.h
+END
+daeLibPhysicsModels.h
+K 25
+svn:wc:ra_dav:version-url
+V 78
+/weedunks/!svn/ver/57/Horde3D/Source/Collada%20Converter/daeLibPhysicsModels.h
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/weedunks/!svn/ver/53/Horde3D/Source/Collada%20Converter/makefile
+END

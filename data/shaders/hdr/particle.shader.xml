@@ -1,0 +1,40 @@
+<Shader>
+	<Context id="TRANSLUCENT">
+		<RenderConfig writeDepth="false" blendMode="ADD_BLENDED" />
+		
+		<VertexShader>
+			<InsCode code="utilityLib/vertParticle.glsl" />
+			<DefCode>
+			<![CDATA[
+				varying vec4 color;
+				varying vec2 texCoord;
+				attribute vec2 texCoords0;
+	
+				void main(void)
+				{
+					color = getParticleColor();
+					texCoord = texCoords0;
+					gl_Position = gl_ProjectionMatrix * calcParticleViewPos();
+				}
+			]]>
+			</DefCode>
+		</VertexShader>
+		
+		<FragmentShader>
+			<DefCode>
+			<![CDATA[
+				uniform sampler2D tex0;
+				varying vec4 color;
+				varying vec2 texCoord;
+
+				void main( void )
+				{
+					vec4 albedo = texture2D( tex0, texCoord );
+					
+					gl_FragColor = albedo * color;
+				}
+			]]>
+			</DefCode>
+		</FragmentShader>
+	</Context>
+</Shader>

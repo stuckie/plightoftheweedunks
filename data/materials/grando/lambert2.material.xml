@@ -1,0 +1,7 @@
+<Material class="Player.Grando">
+	<Shader source="skinning.shader.xml" /> 
+	<Shader source="Players.shader.xml" />
+	<Shader source="shadowSkin.shader.xml" />
+
+	<TexUnit unit="0" map="Grando_colour_test_v17.tga" />
+</Material>

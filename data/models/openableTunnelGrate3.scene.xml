@@ -1,0 +1,4 @@
+<Model name="openableTunnelGrate3" geometry="openableTunnelGrate3.geo">
+
+	<Mesh name="openableTunnelGrate3" material="openableTunnelGrate3/grate_mat.material.xml" tx="21.1878" ty="17.8216" tz="129.936" rx="-0" ry="-90" rz="0" sx="0.1" sy="0.105637" sz="0.099028" batchStart="0" batchCount="960" vertRStart="0" vertREnd="423" />
+</Model>

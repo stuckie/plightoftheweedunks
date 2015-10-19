@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Horde3D Utils" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Utils\..\..\Build\Horde3D Utils\Debug Win32\$(RootNamespace)" prefix_auto="1" extension_auto="1" />
+				<Option object_output="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Utils\..\..\Build\Horde3D Utils\Debug Win32" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DHORDE3DUTILS_EXPORTS" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Utils\..\Shared" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Utils\..\..\Bindings\C++" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Utils\..\Shared" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Utils\..\..\Bindings\C++" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="opengl32" />
+					<Add library="Horde3D_vc8" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Utils\..\..\Bindings\C++" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="xcopy C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Utils\..\..\Build\Horde3D Utils\Debug Win32\ C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Utils\../../Binaries/Win32 /y&#x0D;&#x0A;xcopy $(TargetDir)$(RootNamespace)_vc8.lib C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Utils\../../Bindings/C++ /y&#x0D;&#x0A;" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Utils\..\..\Build\Horde3D Utils\Release Win32\$(RootNamespace)" prefix_auto="1" extension_auto="1" />
+				<Option object_output="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Utils\..\..\Build\Horde3D Utils\Release Win32" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DHORDE3DUTILS_EXPORTS" />
+					<Add option="-W" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Utils\..\Shared" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Utils\..\..\Bindings\C++" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Utils\..\Shared" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Utils\..\..\Bindings\C++" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="opengl32" />
+					<Add library="Horde3D_vc8" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Utils\..\..\Bindings\C++" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="xcopy C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Utils\..\..\Build\Horde3D Utils\Release Win32\ C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Utils\../../Binaries/Win32 /y&#x0D;&#x0A;xcopy $(TargetDir)$(RootNamespace)_vc8.lib C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Utils\../../Bindings/C++ /y&#x0D;&#x0A;" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Unit filename="main.cpp" />
+		<Unit filename="..\Shared\utMath.h" />
+		<Unit filename="..\Shared\utPlatform.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

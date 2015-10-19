@@ -1,0 +1,4 @@
+<Model name="leftPier" geometry="leftPier.geo">
+
+	<Mesh name="leftPier" material="leftPier/pierSectionBack_mat.material.xml" batchStart="0" batchCount="516" vertRStart="0" vertREnd="218" />
+</Model>

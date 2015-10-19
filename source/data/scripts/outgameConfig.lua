@@ -1,0 +1,4 @@
+RENDERING_FAST = 0;
+RENDERING_HDR = 1;
+
+renderingMode = RENDERING_FAST;

@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="SGZ" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Win32Debug">
+				<Option platforms="Windows;" />
+				<Option output="bin/SGZ3D/Debug/Win32/Plight of The Weedunks" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/Win32" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option use_console_runner="0" />
+				<Compiler>
+					<Add option="-W" />
+					<Add option="-pg" />
+					<Add option="-g" />
+					<Add option="-DSGZ3D" />
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WIN32" />
+					<Add option="-DDEBUG_ON" />
+					<Add option="-DOS_WIN32" />
+					<Add directory="code/dependencies/Horde" />
+				</Compiler>
+				<Linker>
+					<Add option="-pg -lgmon" />
+					<Add library="SDL" />
+					<Add library="SDL_mixer" />
+					<Add library="Horde3D" />
+					<Add library="Horde3DUtils" />
+					<Add library="opengl32" />
+					<Add library="glu32" />
+					<Add library="bin/SGZ3D/Debug/Win32/libode_doubled.dll" />
+					<Add library="bin/SGZ3D/Debug/Win32/lua5.1.dll" />
+					<Add directory="bin/SGZ3D/Debug/Win32" />
+				</Linker>
+			</Target>
+			<Target title="Win32Release">
+				<Option platforms="Windows;" />
+				<Option output="bin/SGZ3D/Release/Win32/Plight of The Weedunks" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/Win32" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-DSGZ3D" />
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WIN32" />
+					<Add option="-DOS_WIN32" />
+					<Add directory="code/dependencies/Horde" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="SDL" />
+					<Add library="SDL_mixer" />
+					<Add library="Horde3D" />
+					<Add library="Horde3DUtils" />
+					<Add library="opengl32" />
+					<Add library="glu32" />
+					<Add library="bin/SGZ3D/Release/Win32/libode_double.dll" />
+					<Add library="bin/SGZ3D/Release/Win32/lua5.1.dll" />
+					<Add directory="bin/SGZ3D/Release/Win32" />
+				</Linker>
+			</Target>
+			<Target title="LinuxDebug">
+				<Option platforms="Unix;" />
+				<Option output="bin/SGZ3D/Debug/Linux/SGZ3D" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/Linux" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-pedantic" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-DSGZ3D" />
+					<Add option="-DLINUX" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_LINUX" />
+					<Add option="-DDEBUG_ON" />
+					<Add option="-DOS_LINUX" />
+					<Add option="-DLUA_USE_POSIX" />
+					<Add directory="code/dependencies/Horde" />
+				</Compiler>
+				<Linker>
+					<Add library="SDL" />
+					<Add library="SDL_mixer" />
+					<Add library="SDL_image" />
+					<Add library="Horde3D" />
+					<Add library="Horde3DUtils" />
+					<Add library="GL" />
+					<Add library="GLU" />
+					<Add library="lua5.1" />
+					<Add library="/usr/lib/libode.a" />
+					<Add directory="bin/SGZ3D/Debug/Win32" />
+				</Linker>
+			</Target>
+			<Target title="LinuxRelease">
+				<Option platforms="Unix;" />
+				<Option output="bin/SGZ3D/Release/Linux/SGZ3D" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/Linux" />
+				<Option type="0" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+					<Add option="-DSGZ3D" />
+					<Add option="-DLINUX" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_LINUX" />
+					<Add option="-DOS_LINUX" />
+					<Add option="-DLUA_USE_POSIX" />
+					<Add directory="code/dependencies/Horde" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add library="SDL" />
+					<Add library="SDL_mixer" />
+					<Add library="SDL_image" />
+					<Add library="Horde3D" />
+					<Add library="Horde3DUtils" />
+					<Add library="GL" />
+					<Add library="GLU" />
+					<Add library="lua5.1" />
+					<Add library="/usr/lib/libode.a" />
+					<Add directory="bin/SGZ3D/Release/Win32" />
+				</Linker>
+			</Target>
+		</Build>
+		<VirtualTargets>
+			<Add alias="Win3dAll" targets="Win32Debug;Win32Release;" />
+		</VirtualTargets>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-DpedanticGCC" />
+			<Add option="-DdDOUBLE" />
+			<Add directory="code/dependencies/sdl/include" />
+			<Add directory="code/dependencies" />
+			<Add directory="code/dependencies/ambX" />
+			<Add directory="code/client/renderer/texture" />
+			<Add directory="code/client/renderer/window" />
+			<Add directory="code/client/renderer" />
+			<Add directory="code/client/input" />
+			<Add directory="code/client/audio" />
+			<Add directory="code/client/gui/frame" />
+			<Add directory="code/client/gui/button" />
+			<Add directory="code/client/gui" />
+			<Add directory="code/client" />
+			<Add directory="code" />
+			<Add directory="code/common" />
+			<Add directory="code/common/data" />
+			<Add directory="code/common/debug" />
+			<Add directory="code/common/engine" />
+			<Add directory="code/common/entities" />
+			<Add directory="code/common/network" />
+			<Add directory="code/common/script" />
+			<Add directory="code/server" />
+			<Add directory="code/server/GameServer" />
+			<Add directory="code/server/Managers/TextureManager" />
+			<Add directory="code/server/Managers/LevelManager" />
+			<Add directory="code/server/Managers/EntityManager" />
+			<Add directory="code/server/Managers" />
+			<Add directory="code/server/NetworkServer" />
+			<Add directory="code/system/horde/renderer" />
+			<Add directory="code/system/horde/entities" />
+			<Add directory="code/system/horde" />
+			<Add directory="code/system/lua/Proxies" />
+			<Add directory="code/system/lua" />
+			<Add directory="code/system/sdlgl/window" />
+			<Add directory="code/system/sdlgl/renderer" />
+			<Add directory="code/system/sdlgl" />
+			<Add directory="code/system/sdl/audio" />
+			<Add directory="code/system/sdl/entities" />
+			<Add directory="code/system/sdl/input" />
+			<Add directory="code/system/sdl/renderer" />
+			<Add directory="code/system/sdl/window" />
+			<Add directory="code/client/amBX" />
+			<Add directory="code/server/ODE" />
+			<Add directory="code/dependencies/ode" />
+			<Add directory="code/client/Camera" />
+			<Add directory="code/client/particles" />
+			<Add directory="code/server/AI" />
+		</Compiler>
+		<Unit filename="code/arch.h" />
+		<Unit filename="code/client/Camera/cameraClass.cpp" />
+		<Unit filename="code/client/Camera/cameraClass.h" />
+		<Unit filename="code/client/Camera/cameraClassGameCam.cpp" />
+		<Unit filename="code/client/IClient.h" />
+		<Unit filename="code/client/OClient.cpp" />
+		<Unit filename="code/client/OClient.h" />
+		<Unit filename="code/client/amBX/amBXcore.cpp" />
+		<Unit filename="code/client/amBX/amBXcore.h" />
+		<Unit filename="code/client/audio/IAudio.h" />
+		<Unit filename="code/client/audio/OAudio.cpp" />
+		<Unit filename="code/client/audio/OAudio.h" />
+		<Unit filename="code/client/gui/MGui.cpp" />
+		<Unit filename="code/client/gui/MGui.h" />
+		<Unit filename="code/client/gui/button/IButton.h" />
+		<Unit filename="code/client/gui/button/OButton.h" />
+		<Unit filename="code/client/gui/frame/IFrame.h" />
+		<Unit filename="code/client/gui/frame/OFrame.cpp" />
+		<Unit filename="code/client/gui/frame/OFrame.h" />
+		<Unit filename="code/client/input/IControl.h" />
+		<Unit filename="code/client/input/OControl.cpp" />
+		<Unit filename="code/client/input/OControl.h" />
+		<Unit filename="code/client/particles/particles.cpp" />
+		<Unit filename="code/client/particles/particles.h" />
+		<Unit filename="code/client/renderer/IRender.h" />
+		<Unit filename="code/client/renderer/ORender.cpp" />
+		<Unit filename="code/client/renderer/ORender.h" />
+		<Unit filename="code/client/renderer/texture/ITexture.h" />
+		<Unit filename="code/client/renderer/texture/OTexture.cpp" />
+		<Unit filename="code/client/renderer/texture/OTexture.h" />
+		<Unit filename="code/client/renderer/window/IWindow.h" />
+		<Unit filename="code/common/data/CArray3D.h" />
+		<Unit filename="code/common/data/CRandom.cpp" />
+		<Unit filename="code/common/data/CRandom.h" />
+		<Unit filename="code/common/data/CSLinkedlist.h" />
+		<Unit filename="code/common/data/CSingleton.h" />
+		<Unit filename="code/common/data/CTimer.h" />
+		<Unit filename="code/common/debug/CDebug.cpp" />
+		<Unit filename="code/common/debug/CDebug.h" />
+		<Unit filename="code/common/engine/CInterpret.cpp" />
+		<Unit filename="code/common/engine/CInterpret.h" />
+		<Unit filename="code/common/engine/IEvent.h" />
+		<Unit filename="code/common/engine/OEvent.cpp" />
+		<Unit filename="code/common/engine/OEvent.h" />
+		<Unit filename="code/common/entities/IEntity.h" />
+		<Unit filename="code/common/entities/OEntity2D.cpp" />
+		<Unit filename="code/common/entities/OEntity2D.h" />
+		<Unit filename="code/common/entities/OEntity3D.cpp" />
+		<Unit filename="code/common/entities/OEntity3D.h" />
+		<Unit filename="code/common/script/IScript.h" />
+		<Unit filename="code/common/script/OScript.cpp" />
+		<Unit filename="code/common/script/OScript.h" />
+		<Unit filename="code/dependencies/Horde/Horde3D.h" />
+		<Unit filename="code/dependencies/Horde/Horde3DUtils.h" />
+		<Unit filename="code/dependencies/Horde/utMath.h" />
+		<Unit filename="code/dependencies/SDL/SDL.h" />
+		<Unit filename="code/dependencies/SDL/SDL_active.h" />
+		<Unit filename="code/dependencies/SDL/SDL_audio.h" />
+		<Unit filename="code/dependencies/SDL/SDL_byteorder.h" />
+		<Unit filename="code/dependencies/SDL/SDL_cdrom.h" />
+		<Unit filename="code/dependencies/SDL/SDL_config.h" />
+		<Unit filename="code/dependencies/SDL/SDL_config_amiga.h" />
+		<Unit filename="code/dependencies/SDL/SDL_config_dreamcast.h" />
+		<Unit filename="code/dependencies/SDL/SDL_config_macos.h" />
+		<Unit filename="code/dependencies/SDL/SDL_config_macosx.h" />
+		<Unit filename="code/dependencies/SDL/SDL_config_minimal.h" />
+		<Unit filename="code/dependencies/SDL/SDL_config_nds.h" />
+		<Unit filename="code/dependencies/SDL/SDL_config_os2.h" />
+		<Unit filename="code/dependencies/SDL/SDL_config_symbian.h" />
+		<Unit filename="code/dependencies/SDL/SDL_config_win32.h" />
+		<Unit filename="code/dependencies/SDL/SDL_copying.h" />
+		<Unit filename="code/dependencies/SDL/SDL_cpuinfo.h" />
+		<Unit filename="code/dependencies/SDL/SDL_endian.h" />
+		<Unit filename="code/dependencies/SDL/SDL_error.h" />
+		<Unit filename="code/dependencies/SDL/SDL_events.h" />
+		<Unit filename="code/dependencies/SDL/SDL_framerate.h" />
+		<Unit filename="code/dependencies/SDL/SDL_getenv.h" />
+		<Unit filename="code/dependencies/SDL/SDL_gfxBlitFunc.h" />
+		<Unit filename="code/dependencies/SDL/SDL_gfxPrimitives.h" />
+		<Unit filename="code/dependencies/SDL/SDL_gfxPrimitives_font.h" />
+		<Unit filename="code/dependencies/SDL/SDL_image.h" />
+		<Unit filename="code/dependencies/SDL/SDL_imageFilter.h" />
+		<Unit filename="code/dependencies/SDL/SDL_joystick.h" />
+		<Unit filename="code/dependencies/SDL/SDL_keyboard.h" />
+		<Unit filename="code/dependencies/SDL/SDL_keysym.h" />
+		<Unit filename="code/dependencies/SDL/SDL_loadso.h" />
+		<Unit filename="code/dependencies/SDL/SDL_main.h" />
+		<Unit filename="code/dependencies/SDL/SDL_mixer.h" />
+		<Unit filename="code/dependencies/SDL/SDL_mouse.h" />
+		<Unit filename="code/dependencies/SDL/SDL_mutex.h" />
+		<Unit filename="code/dependencies/SDL/SDL_name.h" />
+		<Unit filename="code/dependencies/SDL/SDL_opengl.h" />
+		<Unit filename="code/dependencies/SDL/SDL_platform.h" />
+		<Unit filename="code/dependencies/SDL/SDL_quit.h" />
+		<Unit filename="code/dependencies/SDL/SDL_rotozoom.h" />
+		<Unit filename="code/dependencies/SDL/SDL_rwops.h" />
+		<Unit filename="code/dependencies/SDL/SDL_stdinc.h" />
+		<Unit filename="code/dependencies/SDL/SDL_syswm.h" />
+		<Unit filename="code/dependencies/SDL/SDL_thread.h" />
+		<Unit filename="code/dependencies/SDL/SDL_timer.h" />
+		<Unit filename="code/dependencies/SDL/SDL_types.h" />
+		<Unit filename="code/dependencies/SDL/SDL_version.h" />
+		<Unit filename="code/dependencies/SDL/SDL_video.h" />
+		<Unit filename="code/dependencies/SDL/begin_code.h" />
+		<Unit filename="code/dependencies/SDL/close_code.h" />
+		<Unit filename="code/dependencies/ambX/rtamBXLink.h" />
+		<Unit filename="code/dependencies/glext.h" />
+		<Unit filename="code/dependencies/glfw/glfw.h" />
+		<Unit filename="code/dependencies/glxext.h" />
+		<Unit filename="code/dependencies/ode/collision.h" />
+		<Unit filename="code/dependencies/ode/collision_space.h" />
+		<Unit filename="code/dependencies/ode/collision_trimesh.h" />
+		<Unit filename="code/dependencies/ode/common.h" />
+		<Unit filename="code/dependencies/ode/compatibility.h" />
+		<Unit filename="code/dependencies/ode/contact.h" />
+		<Unit filename="code/dependencies/ode/error.h" />
+		<Unit filename="code/dependencies/ode/export-dif.h" />
+		<Unit filename="code/dependencies/ode/mass.h" />
+		<Unit filename="code/dependencies/ode/matrix.h" />
+		<Unit filename="code/dependencies/ode/memory.h" />
+		<Unit filename="code/dependencies/ode/misc.h" />
+		<Unit filename="code/dependencies/ode/objects.h" />
+		<Unit filename="code/dependencies/ode/ode.h" />
+		<Unit filename="code/dependencies/ode/odeconfig.h" />
+		<Unit filename="code/dependencies/ode/odecpp.h" />
+		<Unit filename="code/dependencies/ode/odecpp_collision.h" />
+		<Unit filename="code/dependencies/ode/odeinit.h" />
+		<Unit filename="code/dependencies/ode/odemath.h" />
+		<Unit filename="code/dependencies/ode/rotation.h" />
+		<Unit filename="code/dependencies/ode/timer.h" />
+		<Unit filename="code/dependencies/ois/OIS.h" />
+		<Unit filename="code/dependencies/ois/OISConfig.h" />
+		<Unit filename="code/dependencies/ois/OISEffect.h" />
+		<Unit filename="code/dependencies/ois/OISEvents.h" />
+		<Unit filename="code/dependencies/ois/OISException.h" />
+		<Unit filename="code/dependencies/ois/OISForceFeedback.h" />
+		<Unit filename="code/dependencies/ois/OISInputManager.h" />
+		<Unit filename="code/dependencies/ois/OISInterface.h" />
+		<Unit filename="code/dependencies/ois/OISJoyStick.h" />
+		<Unit filename="code/dependencies/ois/OISKeyboard.h" />
+		<Unit filename="code/dependencies/ois/OISMouse.h" />
+		<Unit filename="code/dependencies/ois/OISObject.h" />
+		<Unit filename="code/dependencies/ois/OISPrereqs.h" />
+		<Unit filename="code/dependencies/sdl/include/SDL_active.h" />
+		<Unit filename="code/dependencies/sdl/include/SDL_audio.h" />
+		<Unit filename="code/dependencies/sdl/include/SDL_joystick.h" />
+		<Unit filename="code/dependencies/sdl/include/SDL_keysym.h" />
+		<Unit filename="code/dependencies/sdl/include/SDL_loadso.h" />
+		<Unit filename="code/dependencies/sdl/include/SDL_mouse.h" />
+		<Unit filename="code/dependencies/sdl/include/SDL_mutex.h" />
+		<Unit filename="code/dependencies/sdl/include/SDL_name.h" />
+		<Unit filename="code/dependencies/sdl/include/SDL_opengl.h" />
+		<Unit filename="code/dependencies/sdl/include/SDL_platform.h" />
+		<Unit filename="code/dependencies/sdl/include/SDL_quit.h" />
+		<Unit filename="code/dependencies/sdl/include/SDL_rwops.h" />
+		<Unit filename="code/dependencies/sdl/include/SDL_stdinc.h" />
+		<Unit filename="code/dependencies/sdl/include/SDL_syswm.h" />
+		<Unit filename="code/dependencies/wglext.h" />
+		<Unit filename="code/main.cpp" />
+		<Unit filename="code/main.h" />
+		<Unit filename="code/server/AI/AI.h" />
+		<Unit filename="code/server/AI/AIAccessors.cpp" />
+		<Unit filename="code/server/AI/AICore.cpp" />
+		<Unit filename="code/server/AI/AIMove.cpp" />
+		<Unit filename="code/server/AI/AISetWeedunkState.cpp" />
+		<Unit filename="code/server/GameServer/GameServer.cpp" />
+		<Unit filename="code/server/GameServer/GameServer.h" />
+		<Unit filename="code/server/IServer.h" />
+		<Unit filename="code/server/Managers/EntityManager/MEntity.cpp" />
+		<Unit filename="code/server/Managers/EntityManager/MEntity.h" />
+		<Unit filename="code/server/Managers/LevelManager/MLevel.cpp" />
+		<Unit filename="code/server/Managers/LevelManager/MLevel.h" />
+		<Unit filename="code/server/Managers/TextureManager/MTexture.cpp" />
+		<Unit filename="code/server/Managers/TextureManager/MTexture.h" />
+		<Unit filename="code/server/NetworkServer/NetworkServer.cpp" />
+		<Unit filename="code/server/NetworkServer/NetworkServer.h" />
+		<Unit filename="code/server/ODE/odeAccessors.cpp" />
+		<Unit filename="code/server/ODE/odeAddObject.cpp" />
+		<Unit filename="code/server/ODE/odeCore.cpp" />
+		<Unit filename="code/server/ODE/odeCore.h" />
+		<Unit filename="code/server/ODE/odeHits.cpp" />
+		<Unit filename="code/server/OServer.cpp" />
+		<Unit filename="code/server/OServer.h" />
+		<Unit filename="code/system/horde/entities/HordeEntity2D.cpp" />
+		<Unit filename="code/system/horde/entities/HordeEntity2D.h" />
+		<Unit filename="code/system/horde/entities/HordeEntity3D.cpp" />
+		<Unit filename="code/system/horde/entities/HordeEntity3D.h" />
+		<Unit filename="code/system/horde/renderer/HordeRender.cpp" />
+		<Unit filename="code/system/horde/renderer/HordeRender.h" />
+		<Unit filename="code/system/horde/renderer/HordeTexture.cpp" />
+		<Unit filename="code/system/horde/renderer/HordeTexture.h" />
+		<Unit filename="code/system/lua/LuaProxies.cpp" />
+		<Unit filename="code/system/lua/LuaProxies.h" />
+		<Unit filename="code/system/lua/LuaScript.cpp" />
+		<Unit filename="code/system/lua/LuaScript.h" />
+		<Unit filename="code/system/lua/Proxies/SGZAI.cpp" />
+		<Unit filename="code/system/lua/Proxies/SGZAI.h" />
+		<Unit filename="code/system/lua/Proxies/SGZAudio.cpp" />
+		<Unit filename="code/system/lua/Proxies/SGZAudio.h" />
+		<Unit filename="code/system/lua/Proxies/SGZCamera.cpp" />
+		<Unit filename="code/system/lua/Proxies/SGZCamera.h" />
+		<Unit filename="code/system/lua/Proxies/SGZControl.cpp" />
+		<Unit filename="code/system/lua/Proxies/SGZControl.h" />
+		<Unit filename="code/system/lua/Proxies/SGZEntity2D.cpp" />
+		<Unit filename="code/system/lua/Proxies/SGZEntity2D.h" />
+		<Unit filename="code/system/lua/Proxies/SGZEntity3D.cpp" />
+		<Unit filename="code/system/lua/Proxies/SGZEntity3D.h" />
+		<Unit filename="code/system/lua/Proxies/SGZEntityMan.cpp" />
+		<Unit filename="code/system/lua/Proxies/SGZEntityMan.h" />
+		<Unit filename="code/system/lua/Proxies/SGZEvent.cpp" />
+		<Unit filename="code/system/lua/Proxies/SGZEvent.h" />
+		<Unit filename="code/system/lua/Proxies/SGZHorde.cpp" />
+		<Unit filename="code/system/lua/Proxies/SGZHorde.h" />
+		<Unit filename="code/system/lua/Proxies/SGZInterpret.cpp" />
+		<Unit filename="code/system/lua/Proxies/SGZInterpret.h" />
+		<Unit filename="code/system/lua/Proxies/SGZLevelMan.cpp" />
+		<Unit filename="code/system/lua/Proxies/SGZLevelMan.h" />
+		<Unit filename="code/system/lua/Proxies/SGZNetwork.cpp" />
+		<Unit filename="code/system/lua/Proxies/SGZNetwork.h" />
+		<Unit filename="code/system/lua/Proxies/SGZODE.cpp" />
+		<Unit filename="code/system/lua/Proxies/SGZODE.h" />
+		<Unit filename="code/system/lua/Proxies/SGZRender.cpp" />
+		<Unit filename="code/system/lua/Proxies/SGZRender.h" />
+		<Unit filename="code/system/lua/Proxies/SGZTexture.cpp" />
+		<Unit filename="code/system/lua/Proxies/SGZTexture.h" />
+		<Unit filename="code/system/lua/Proxies/SGZTextureMan.cpp" />
+		<Unit filename="code/system/lua/Proxies/SGZTextureMan.h" />
+		<Unit filename="code/system/lua/Proxies/SGZTimer.cpp" />
+		<Unit filename="code/system/lua/Proxies/SGZTimer.h" />
+		<Unit filename="code/system/lua/Proxies/SGZamBX.cpp" />
+		<Unit filename="code/system/lua/Proxies/SGZamBX.h" />
+		<Unit filename="code/system/lua/lauxlib.h" />
+		<Unit filename="code/system/lua/lua.h" />
+		<Unit filename="code/system/lua/luaconf.h" />
+		<Unit filename="code/system/lua/lualib.h" />
+		<Unit filename="code/system/lua/lunar.h" />
+		<Unit filename="code/system/misc/net/DUMMYNetwork.h" />
+		<Unit filename="code/system/opengl/entities/GLEntity2D.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="code/system/opengl/entities/GLEntity2D.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="code/system/sdl/audio/SDLAudio.cpp" />
+		<Unit filename="code/system/sdl/audio/SDLAudio.h" />
+		<Unit filename="code/system/sdl/entities/SDLEntity2D.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="code/system/sdl/entities/SDLEntity2D.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="code/system/sdl/input/SDLControl.cpp" />
+		<Unit filename="code/system/sdl/input/SDLControl.h" />
+		<Unit filename="code/system/sdl/renderer/SDLRenderer.cpp" />
+		<Unit filename="code/system/sdl/renderer/SDLRenderer.h" />
+		<Unit filename="code/system/sdl/renderer/SDLTexture.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="code/system/sdl/renderer/SDLTexture.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="code/system/sdl/window/SDLWindow.cpp" />
+		<Unit filename="code/system/sdl/window/SDLWindow.h" />
+		<Unit filename="code/system/sdlgl/renderer/SDLGLRenderer.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="code/system/sdlgl/renderer/SDLGLRenderer.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="code/system/sdlgl/renderer/SDLGLTexture.cpp">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="code/system/sdlgl/renderer/SDLGLTexture.h">
+			<Option target="&lt;{~None~}&gt;" />
+		</Unit>
+		<Unit filename="code/system/sdlgl/window/SDLGLWindow.cpp" />
+		<Unit filename="code/system/sdlgl/window/SDLGLWindow.h" />
+		<Unit filename="code/typedefs.h" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

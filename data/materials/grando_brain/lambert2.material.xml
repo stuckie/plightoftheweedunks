@@ -1,0 +1,5 @@
+<Material class="Player.weedunk">
+	<Shader source="skinning.shader.xml" />
+
+	<TexUnit unit="0" map="Grando_colour_test_v17.tga" />
+</Material>

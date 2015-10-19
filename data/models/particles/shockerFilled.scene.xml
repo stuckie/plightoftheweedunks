@@ -1,0 +1,5 @@
+<Group>
+	<Emitter name="shockerParticles" material="particles/shockerFilled.material.xml" effect="shocker.effect.xml"
+			 maxCount="20" respawnCount="-1" delay="0.01" emissionRate="100000" spreadAngle="360"
+			 forceX="0" forceY="0.0" forceZ="0" />
+</Group>

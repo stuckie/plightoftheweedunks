@@ -1,0 +1,22 @@
+-- This is the main SGZEngine script file 
+-- We basically just set some things up and call our "main function" from here
+
+--Window Creation
+WindowWidth = 1920
+WindowHeight = 1080
+WindowBPP = 32
+WindowName = "Weedunks"
+--Script Configuration
+MainScript = "data/scripts/weedunks.lua"
+MainFunc = "main"
+--Last edited on Tue Jun 24 13:07:16 2008
+
+--Engine Config
+HordeLoadTextures = 1;
+HordeTexCompression = 1;
+HordeFastAnimation = 1;
+HordeAnsiotropy = 8;
+HordeShadowMapSize = 2048;
+HordeMaxLogLevel = 0;
+HordeDebugView = 0;
+HordeWireframe = 0;

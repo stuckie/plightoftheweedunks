@@ -1,0 +1,97 @@
+<Model name="Kohi" geometry="Kohi.geo">
+	<Joint name="root" tx="0.018826" ty="1.88266" tz="0" rx="-0" ry="0" rz="90" jointIndex="1">
+		<Joint name="pelvis" jointIndex="2">
+			<Joint name="spine1" tx="1.43082" ty="0" tz="0" jointIndex="3">
+				<Joint name="spine2" tx="0.978982" ty="0" tz="0" jointIndex="4">
+					<Joint name="neck" tx="1.26243" ty="0" tz="0" jointIndex="5">
+						<Joint name="head" tx="0.740029" ty="0" tz="0" jointIndex="6">
+							<Joint name="headEnd" tx="3.04306" ty="0" tz="0" rx="90" ry="0" rz="-15.3383" jointIndex="7">
+								<Joint name="curl1" tx="1.6286" ty="0" tz="0" rx="-0" ry="0" rz="-34.3119" jointIndex="8">
+									<Joint name="curl2" tx="3.2259" ty="0" tz="0" rx="-0" ry="0" rz="-57.2436" jointIndex="9">
+										<Joint name="curl3" tx="3.06959" ty="0" tz="0" rx="-0" ry="180" rz="-98.4904" jointIndex="10">
+											<Joint name="curl4" tx="1.93535" ty="0" tz="0" rx="-0" ry="0" rz="98.4743" jointIndex="11">
+												<Joint name="curl5" tx="1.41763" ty="0" tz="0" rx="16.8777" ry="90" rz="0" jointIndex="12" />
+											</Joint>
+										</Joint>
+									</Joint>
+								</Joint>
+							</Joint>
+							<Joint name="LtEar1" tx="1.80051" ty="-1.31786" tz="-0.41688" rx="-0" ry="0" rz="-75.9637" jointIndex="13">
+								<Joint name="LtEar2" tx="2.01822" ty="0" tz="0" rx="-0" ry="0" rz="-7.38182" jointIndex="14">
+									<Joint name="LtEar3" tx="2.27451" ty="0" tz="-0.107402" rx="-0" ry="0" rz="-79.761" jointIndex="15">
+										<Joint name="LtEar4" tx="1.47679" ty="0" tz="0" rx="-0" ry="0" rz="163.107" jointIndex="16" />
+									</Joint>
+ />
+								</Joint>
+ />
+							</Joint>
+							<Joint name="RtEar1" tx="1.80051" ty="1.35552" tz="-0.41688" rx="-0" ry="180" rz="-75.9637" jointIndex="17">
+								<Joint name="RtEar2" tx="-2.01822" ty="0" tz="0" rx="-0" ry="0" rz="-7.38182" jointIndex="18">
+									<Joint name="RtEar3" tx="-2.27451" ty="2e-006" tz="0.107402" rx="-0" ry="0" rz="101.291" jointIndex="19">
+										<Joint name="RtEar4" tx="1.46668" ty="0" tz="0" rx="-0" ry="0" rz="-17.4387" jointIndex="20" />
+									</Joint>
+ />
+								</Joint>
+ />
+							</Joint>
+ />
+ />
+						</Joint>
+					</Joint>
+					<Joint name="RtArmClavicle" tx="1.09289" ty="0.358057" tz="0" rx="-0" ry="0" rz="-90" jointIndex="21">
+						<Joint name="RtArmShoulder" tx="-0.376057" ty="-0.000947" tz="0" rx="-0" ry="180" rz="180" jointIndex="22">
+							<Joint name="RtArmElbow" tx="-1.22385" ty="0" tz="0.032028" jointIndex="23">
+								<Joint name="RtArmWrist" tx="-1.65674" ty="0" tz="-0.032028" jointIndex="24">
+									<Joint name="RtThumbRoot" tx="-0.39027" ty="0.22547" tz="-0.551234" rx="-0" ry="-73.2999" rz="154.583" jointIndex="25">
+										<Joint name="RtThumbMid" tx="0.319634" ty="0" tz="0" rx="1.60856" ry="-3.38783" rz="1.3979" jointIndex="26" />
+									</Joint>
+									<Joint name="RtIndexRoot" tx="-0.79952" ty="0.15637" tz="-0.197291" jointIndex="27">
+										<Joint name="RtIndexMid" tx="-0.50879" ty="0" tz="0" jointIndex="28" />
+									</Joint>
+									<Joint name="RtPinkyRoot" tx="-0.81058" ty="0.15637" tz="0.223016" jointIndex="29">
+										<Joint name="RtPinkyMid" tx="-0.4922" ty="0" tz="0" jointIndex="30" />
+									</Joint>
+									<Joint name="Weedunk_Mover" tx="0" ty="0.828309" tz="0" jointIndex="31" />
+								</Joint>
+							</Joint>
+						</Joint>
+					</Joint>
+					<Joint name="LtArmClavicle" tx="1.09289" ty="-0.316331" tz="0" rx="-0" ry="0" rz="-90" jointIndex="32">
+						<Joint name="LtArmShoulder" tx="0.374907" ty="-0.000947" tz="0" jointIndex="33">
+							<Joint name="LtArmElbow" tx="1.22907" ty="0" tz="-0.032028" jointIndex="34">
+								<Joint name="LtArmWrist" tx="1.65674" ty="0" tz="0.032028" jointIndex="35">
+									<Joint name="LtPinkyRoot" tx="0.810585" ty="-0.156371" tz="-0.223016" jointIndex="36">
+										<Joint name="LtPinkyMid" tx="0.492201" ty="0" tz="0" jointIndex="37" />
+									</Joint>
+									<Joint name="LtIndexRoot" tx="0.799524" ty="-0.156371" tz="0.197291" jointIndex="38">
+										<Joint name="LtIndexMid" tx="0.508793" ty="0" tz="0" jointIndex="39" />
+									</Joint>
+									<Joint name="LtThumbRoot" tx="0.390278" ty="-0.225466" tz="0.551234" rx="-0" ry="-73.3007" rz="-25.4187" jointIndex="40">
+										<Joint name="LtThumbMid" tx="0.319635" ty="0" tz="0" rx="-1.60879" ry="3.38811" rz="1.40014" jointIndex="41" />
+									</Joint>
+								</Joint>
+							</Joint>
+						</Joint>
+					</Joint>
+				</Joint>
+				<Joint name="Bell_attach" tx="0.250324" ty="0" tz="-0.985316" jointIndex="42">
+					<Joint name="Bell_Mover" jointIndex="43">
+						<!-- <Mesh name="BellMesh" material="Kohi/KohiMat.material.xml" tx="-3.5638" ty="0.018826" tz="0.985316" rx="-0" ry="0" rz="-90" sx="0.083026" sy="0.083026" sz="0.083026" batchStart="6276" batchCount="804" vertRStart="1407" vertREnd="1601" /> -->
+					</Joint>
+				</Joint>
+			</Joint>
+			<Joint name="LtHip" tx="-0.188266" ty="-1.31786" tz="0" rx="-0" ry="174.735" rz="0" jointIndex="44">
+				<Joint name="LtKnee" tx="0.866022" ty="0" tz="-0.079812" rx="-0" ry="13.5212" rz="0" jointIndex="45">
+					<Joint name="LtAnkle" tx="0.550049" ty="0" tz="0.079812" rx="-0" ry="-8.25587" rz="0" jointIndex="46" />
+				</Joint>
+			</Joint>
+			<Joint name="RtHip" tx="-0.188267" ty="1.35552" tz="0" jointIndex="47">
+				<Joint name="RtKnee" tx="-0.866021" ty="0" tz="0.079812" jointIndex="48">
+					<Joint name="RtAnkle" tx="-0.550049" ty="0" tz="-0.079812" jointIndex="49" />
+				</Joint>
+			</Joint>
+		</Joint>
+	</Joint>
+
+	<Mesh name="KohiMesh" material="Kohi/KohiMat.material.xml" batchStart="0" batchCount="6276" vertRStart="0" vertREnd="1406" />
+</Model>

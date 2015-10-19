@@ -1,0 +1,40 @@
+<Model name="toothy" geometry="toothy.geo">
+	<Joint name="toothyDoorRootJoint" tx="0" ty="112.423" tz="-77.8922" jointIndex="1">
+		<Joint name="UprRtToothyDoor" tx="50.678" ty="-37.4693" tz="0" rx="-0" ry="180" rz="-52.7857" sx="0.0999988" sy="1" sz="1" jointIndex="2" />
+		<Joint name="UprLtToothyDoor" tx="-49.9708" ty="-37.4737" tz="0" rx="-0" ry="0" rz="-52.7189" sx="0.0999994" sy="1" sz="1" jointIndex="3" />
+		<Joint name="LwrRtToothyDoor" tx="50.7273" ty="-169.333" tz="0" rx="-0" ry="180" rz="52.7838" sx="0.099999" sy="1" sz="1" jointIndex="4" />
+		<Joint name="LwrLtToothyDoor" tx="-49.9492" ty="-169.326" tz="0" rx="-0" ry="0" rz="52.7528" sx="0.0999996" sy="1" sz="1" jointIndex="5" />
+	</Joint>
+
+	<Mesh name="teeth2" material="toothy/phong1.material.xml" tx="0" ty="8.7" tz="2" sx="0.1" sy="0.1" sz="0.1" batchStart="0" batchCount="3426" vertRStart="0" vertREnd="769" />
+	<Mesh name="teeth3" material="toothy/phong1.material.xml" tx="0" ty="8.7" tz="-18.1" sx="0.1" sy="0.1" sz="0.1" batchStart="3426" batchCount="3426" vertRStart="770" vertREnd="1539" />
+	<Mesh name="teeth4" material="toothy/phong1.material.xml" tx="0" ty="8.7" tz="-58.3" sx="0.1" sy="0.1" sz="0.1" batchStart="6852" batchCount="3426" vertRStart="1540" vertREnd="2309" />
+	<Mesh name="teeth5" material="toothy/phong1.material.xml" tx="0" ty="8.7" tz="-78.4" sx="0.1" sy="0.1" sz="0.1" batchStart="10278" batchCount="3426" vertRStart="2310" vertREnd="3079" />
+	<Mesh name="teeth6" material="toothy/phong1.material.xml" tx="0" ty="8.7" tz="-98.5" sx="0.1" sy="0.1" sz="0.1" batchStart="13704" batchCount="3426" vertRStart="3080" vertREnd="3849" />
+	<Mesh name="teeth7" material="toothy/phong1.material.xml" tx="0" ty="4.79829" tz="-115.889" sx="0.078004" sy="0.078004" sz="0.078004" batchStart="17130" batchCount="3426" vertRStart="3850" vertREnd="4619" />
+	<Mesh name="polySurface86" material="toothy/phong1.material.xml" tx="0" ty="0" tz="-120.6" sx="0.1" sy="0.1" sz="0.1" batchStart="20556" batchCount="600" vertRStart="4620" vertREnd="4748" />
+	<Mesh name="chamber7" material="toothy/phong1.material.xml" tx="0" ty="0" tz="-120.6" sx="0.1" sy="0.1" sz="0.1" batchStart="21156" batchCount="1512" vertRStart="4749" vertREnd="5112" />
+	<Mesh name="staticTeeth15" material="toothy/phong1.material.xml" tx="-0.135538" ty="8.67688" tz="-120.6" rx="-0" ry="0" rz="180" sx="0.1" sy="0.1" sz="0.1" batchStart="22668" batchCount="3426" vertRStart="5113" vertREnd="5882" />
+	<Mesh name="teeth1" material="toothy/phong1.material.xml" tx="0" ty="8.7" tz="22.1" sx="0.1" sy="0.1" sz="0.1" batchStart="26094" batchCount="3426" vertRStart="5883" vertREnd="6652" />
+	<Mesh name="chamber8" material="toothy/phong1.material.xml" tx="0" ty="0" tz="-140.7" sx="0.1" sy="0.1" sz="0.1" batchStart="29520" batchCount="1512" vertRStart="6653" vertREnd="7018" />
+	<Mesh name="staticTeeth18" material="toothy/phong1.material.xml" tx="-0.118596" ty="6.55878" tz="-132.4" rx="-0" ry="0" rz="180" sx="0.075" sy="0.075" sz="0.075" batchStart="31032" batchCount="3426" vertRStart="7019" vertREnd="7788" />
+	<Mesh name="tunnelEndLightMesh" material="toothy/tunnelEndLightMAT.material.xml" tx="0" ty="1.34581" tz="-116.869" rx="90" ry="0" rz="-0" sx="9.76453" sy="9.76453" sz="9.76453" batchStart="34458" batchCount="6" vertRStart="7789" vertREnd="7792" />
+	<Mesh name="doorMesh" material="toothy/lambert8.material.xml" tx="-0.036221" ty="4.1694" tz="-30.0807" sx="0.1" sy="0.102652" sz="0.1" batchStart="34464" batchCount="1464" vertRStart="7793" vertREnd="8096" />
+	<Mesh name="polySurface74" material="toothy/phong1.material.xml" sx="0.1" sy="0.1" sz="0.1" batchStart="35928" batchCount="600" vertRStart="8097" vertREnd="8221" />
+	<Mesh name="chamber1" material="toothy/phong1.material.xml" sx="0.1" sy="0.1" sz="0.1" batchStart="36528" batchCount="1404" vertRStart="8222" vertREnd="8581" />
+	<Mesh name="staticTeeth3" material="toothy/phong1.material.xml" tx="-0.135538" ty="8.67688" tz="0" rx="-0" ry="0" rz="180" sx="0.1" sy="0.1" sz="0.1" batchStart="37932" batchCount="3426" vertRStart="8582" vertREnd="9351" />
+	<Mesh name="polySurface76" material="toothy/phong1.material.xml" tx="0" ty="0" tz="-20.1" sx="0.1" sy="0.1" sz="0.1" batchStart="41358" batchCount="600" vertRStart="9352" vertREnd="9480" />
+	<Mesh name="chamber2" material="toothy/phong1.material.xml" tx="0" ty="0" tz="-20.1" sx="0.1" sy="0.1" sz="0.1" batchStart="41958" batchCount="1512" vertRStart="9481" vertREnd="9844" />
+	<Mesh name="staticTeeth5" material="toothy/phong1.material.xml" tx="-0.135538" ty="8.67688" tz="-20.1" rx="-0" ry="0" rz="180" sx="0.1" sy="0.1" sz="0.1" batchStart="43470" batchCount="3426" vertRStart="9845" vertREnd="10614" />
+	<Mesh name="polySurface78" material="toothy/phong1.material.xml" tx="0" ty="0" tz="-40.2" sx="0.1" sy="0.1" sz="0.1" batchStart="46896" batchCount="600" vertRStart="10615" vertREnd="10743" />
+	<Mesh name="chamber3" material="toothy/phong1.material.xml" tx="0" ty="0" tz="-40.2" sx="0.1" sy="0.1" sz="0.1" batchStart="47496" batchCount="1512" vertRStart="10744" vertREnd="11107" />
+	<Mesh name="staticTeeth7" material="toothy/phong1.material.xml" tx="-0.135538" ty="8.67688" tz="-40.2" rx="-0" ry="0" rz="180" sx="0.1" sy="0.1" sz="0.1" batchStart="49008" batchCount="3426" vertRStart="11108" vertREnd="11877" />
+	<Mesh name="polySurface80" material="toothy/phong1.material.xml" tx="0" ty="0" tz="-60.3" sx="0.1" sy="0.1" sz="0.1" batchStart="52434" batchCount="600" vertRStart="11878" vertREnd="12006" />
+	<Mesh name="chamber4" material="toothy/phong1.material.xml" tx="0" ty="0" tz="-60.3" sx="0.1" sy="0.1" sz="0.1" batchStart="53034" batchCount="1512" vertRStart="12007" vertREnd="12370" />
+	<Mesh name="polySurface82" material="toothy/phong1.material.xml" tx="0" ty="0" tz="-80.4" sx="0.1" sy="0.1" sz="0.1" batchStart="54546" batchCount="600" vertRStart="12371" vertREnd="12499" />
+	<Mesh name="chamber5" material="toothy/phong1.material.xml" tx="0" ty="0" tz="-80.4" sx="0.1" sy="0.1" sz="0.1" batchStart="55146" batchCount="1512" vertRStart="12500" vertREnd="12863" />
+	<Mesh name="staticTeeth11" material="toothy/phong1.material.xml" tx="-0.135538" ty="8.67688" tz="-80.4" rx="-0" ry="0" rz="180" sx="0.1" sy="0.1" sz="0.1" batchStart="56658" batchCount="3426" vertRStart="12864" vertREnd="13633" />
+	<Mesh name="polySurface84" material="toothy/phong1.material.xml" tx="0" ty="0" tz="-100.5" sx="0.1" sy="0.1" sz="0.1" batchStart="60084" batchCount="600" vertRStart="13634" vertREnd="13762" />
+	<Mesh name="chamber6" material="toothy/phong1.material.xml" tx="0" ty="0" tz="-100.5" sx="0.1" sy="0.1" sz="0.1" batchStart="60684" batchCount="1512" vertRStart="13763" vertREnd="14126" />
+	<Mesh name="staticTeeth13" material="toothy/phong1.material.xml" tx="-0.135538" ty="8.67688" tz="-100.5" rx="-0" ry="0" rz="180" sx="0.1" sy="0.1" sz="0.1" batchStart="62196" batchCount="3426" vertRStart="14127" vertREnd="14896" />
+</Model>

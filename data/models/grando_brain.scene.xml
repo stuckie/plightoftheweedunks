@@ -1,0 +1,77 @@
+<Model name="grando_brain" geometry="grando_brain.geo">
+	<Joint name="grando_root" tx="-0.022964" ty="2.35168" tz="0" rx="-1.99962" ry="8.92369" rz="90.4375" sx="0.990515" sy="0.990515" sz="0.990515" jointIndex="1">
+		<Joint name="grando__lower_spine" tx="1.24618" ty="0.027109" tz="-0.008336" rx="8.55961" ry="0.570891" rz="2.81231" sx="1.01088" sy="1.01088" sz="1.01088" jointIndex="2">
+			<Joint name="grando_Left_Hip" tx="-0.375039" ty="-3.67243" tz="0" rx="67.5236" ry="-6.97948" rz="-138.397" sx="0.998707" sy="0.998708" sz="0.998708" jointIndex="3">
+				<Joint name="grando_Left_knee" tx="1.6603" ty="-0.006935" tz="-0.004414" rx="-0" ry="0" rz="-5.31113" jointIndex="4">
+					<Joint name="grando_Left_ankle" tx="0.818503" ty="0.073154" tz="0" rx="2.94883" ry="-176.096" rz="-144.589" jointIndex="5">
+						<Joint name="grando_Left_toe" tx="1.25431" ty="-0.240495" tz="0" rx="-6.70982" ry="90" rz="0" jointIndex="6" />
+					</Joint>
+				</Joint>
+			</Joint>
+			<Joint name="grando_Right_Hip" tx="-0.375035" ty="3.67243" tz="0" rx="61.305" ry="-9.37965" rz="-17.1345" sx="0.998708" sy="0.998708" sz="0.998707" jointIndex="7">
+				<Joint name="grando_Right_knee" tx="-1.66069" ty="0.003832" tz="0.004131" rx="-0" ry="0" rz="-5.3113" jointIndex="8">
+					<Joint name="grando_Right_ankle" tx="-0.818499" ty="-0.073156" tz="0" rx="-10.2893" ry="-176.428" rz="-78.0182" jointIndex="9">
+						<Joint name="grando_Right_toe" tx="-1.25431" ty="0.240495" tz="0" rx="-6.70982" ry="90" rz="0" jointIndex="10" />
+					</Joint>
+				</Joint>
+			</Joint>
+			<Joint name="Gut" tx="2.11141" ty="0.016006" tz="0" rx="-0" ry="0" rz="-90" sx="0.986731" sy="0.986731" sz="0.986731" jointIndex="11">
+				<Joint name="grando_belly" tx="0.015841" ty="1.71022" tz="0.00506" rx="-3.4016" ry="-4.67147" rz="81.319" sx="0.993103" sy="0.993103" sz="0.993103" jointIndex="12">
+					<Joint name="grando_chest" tx="2.48231" ty="0" tz="0" rx="0.999985" ry="6" rz="0" sx="1.00326" sy="1.00326" sz="1.00326" jointIndex="13">
+						<Joint name="grando_head" tx="3.45642" ty="0" tz="0" rx="8.28441" ry="176.83" rz="176.64" sx="1.01585" sy="1.01586" sz="1.01586" jointIndex="14">
+							<Joint name="grando_headtop" tx="4.86709" ty="0.14482" tz="0" rx="-0" ry="180" rz="176.852" jointIndex="15" />
+							<Joint name="grando_Left_ear_1" tx="0.021138" ty="3.65233" tz="0.814787" rx="-1.00886" ry="179.81" rz="100.938" jointIndex="16">
+								<Joint name="grando_Left_ear_2" tx="3.59671" ty="0.237023" tz="0" rx="-0" ry="0" rz="15.5049" jointIndex="17" />
+							</Joint>
+							<Joint name="grando_Left_tash_1" tx="-1.45074" ty="2.32995" tz="-3.07212" rx="-22.2305" ry="171.814" rz="89.4101" jointIndex="18">
+								<Joint name="grando_Left_tash_2" tx="2.96992" ty="-0.85271" tz="0.72955" rx="-0" ry="0" rz="-44.0425" jointIndex="19">
+									<Joint name="grando_Left_tash_3" tx="0.925627" ty="0.980746" tz="0" rx="21.3718" ry="-10.2967" rz="118.507" jointIndex="20" />
+								</Joint>
+							</Joint>
+							<Joint name="grando_brain_lid" tx="2.67472" ty="0.105882" tz="2.57685" rx="87.5105" ry="0" rz="-24.351" jointIndex="21" />
+							<Joint name="grando_Right_ear_1" tx="0.338045" ty="-3.63671" tz="0.814787" rx="0.483124" ry="-0.982706" rz="109.437" jointIndex="22">
+								<Joint name="grando_Right_ear_2" tx="-3.59671" ty="-0.23702" tz="0" rx="-0" ry="0" rz="15.5049" jointIndex="23" />
+							</Joint>
+							<Joint name="grando_Right_tash_1" tx="-1.24302" ty="-2.44707" tz="-3.07212" rx="-17.9183" ry="2.0857" rz="76.0349" jointIndex="24">
+								<Joint name="grando_Right_tash_2" tx="-4.01956" ty="0.850918" tz="-0.721962" rx="-0" ry="0" rz="-44.0426" jointIndex="25">
+									<Joint name="grando_Right_tash_3" tx="-0.925623" ty="-0.980734" tz="0" rx="13.9738" ry="-11.5175" rz="135.454" jointIndex="26" />
+								</Joint>
+							</Joint>
+						</Joint>
+						<Joint name="grando_Left_cavicle" tx="0.227446" ty="-2.51857" tz="0" rx="-0" ry="0" rz="-92.0901" sx="1.01586" sy="1.01586" sz="1.01586" jointIndex="27">
+							<Joint name="grando_Left_shoulder" tx="2.6505" ty="0" tz="0" rx="-51.2522" ry="-30.8777" rz="-55.3314" jointIndex="28">
+								<Joint name="grando_Left_elbow" tx="3.35903" ty="0" tz="0" rx="11.7776" ry="-52.7364" rz="-17.3676" jointIndex="29">
+									<Joint name="grando_Left_hand" tx="2.37028" ty="-0.342989" tz="0.0125" rx="1.92229" ry="20.1069" rz="-26.6105" jointIndex="30">
+										<Joint name="grando_Left_finger_baby" tx="2.50424" ty="0.836982" tz="0.099608" rx="-0" ry="-24.9258" rz="-29.9751" jointIndex="31" />
+										<Joint name="grando_Left_thumb" tx="0.654235" ty="-0.920705" tz="1.47223" rx="-0" ry="-44.108" rz="0" jointIndex="32" />
+										<Joint name="grando_Left_finger_point" tx="1.81883" ty="0.836982" tz="1.43721" rx="-0" ry="-26.5651" rz="-29.9751" jointIndex="33" />
+									</Joint>
+								</Joint>
+							</Joint>
+						</Joint>
+						<Joint name="grando_Right_cavicle" tx="0.227451" ty="2.51857" tz="0" rx="-0" ry="180" rz="-92.0901" sx="1.01586" sy="1.01586" sz="1.01586" jointIndex="34">
+							<Joint name="grando_Right_shoulder" tx="-2.6505" ty="0" tz="0" rx="-11.5559" ry="-5.27268" rz="-71.9268" jointIndex="35">
+								<Joint name="grando_Right_elbow" tx="-3.35902" ty="1e-006" tz="0" rx="12.8972" ry="-46.1608" rz="-14.4392" jointIndex="36">
+									<Joint name="grando_Right_hand" tx="-2.36769" ty="0.341396" tz="0.116619" rx="1.53296" ry="21.9208" rz="-38.5546" jointIndex="37">
+										<Joint name="grando_Right_finger_baby" tx="-2.53362" ty="-0.826008" tz="-0.115049" rx="-4.84204" ry="-30.8499" rz="-24.0004" jointIndex="38" />
+										<Joint name="grando_Right_thumb" tx="-0.766496" ty="0.818705" tz="-1.46278" rx="-0" ry="-44.108" rz="-30" jointIndex="39" />
+										<Joint name="grando_Right_finger_point" tx="-1.77439" ty="-0.837" tz="-1.53386" rx="-0" ry="-26.5651" rz="-45" jointIndex="40" />
+										<Joint name="weedunk_attach" tx="-2.65959" ty="-0.420663" tz="-1.15126" rx="49.3141" ry="-119.394" rz="171.832" jointIndex="41" />
+									</Joint>
+								</Joint>
+							</Joint>
+						</Joint>
+					</Joint>
+					<Joint name="grando_tail" tx="-1.8119" ty="0.0104" tz="-5.37039" rx="85.2309" ry="4.00762" rz="-90" sx="1.01916" sy="1.01916" sz="1.01917" jointIndex="42">
+						<Joint name="joint1" tx="-1e-006" ty="-4e-006" tz="0" rx="-0" ry="-105" rz="0" jointIndex="43">
+							<Joint name="grando_tailtip" tx="-0.004741" ty="0.058783" tz="-1.91082" rx="4.00778" ry="-90" rz="0" jointIndex="44" />
+						</Joint>
+					</Joint>
+				</Joint>
+			</Joint>
+		</Joint>
+	</Joint>
+	<Joint name="grando_Brain" tx="-0.135971" ty="23.1651" tz="-0.25917" jointIndex="45" />
+
+	<Mesh name="Grando_brain" material="grando_brain/lambert2.material.xml" tx="0" ty="4.44011" tz="0" batchStart="0" batchCount="432" vertRStart="0" vertREnd="95" />
+</Model>

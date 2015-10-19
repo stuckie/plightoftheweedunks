@@ -1,0 +1,14 @@
+<Model name="weedunkPortal" geometry="weedunkPortal.geo">
+	<Joint name="joint8" tx="-0.125223" ty="0" tz="-1.8172" jointIndex="1">
+		<Joint name="top_left" tx="-0.667706" ty="0" tz="1.05686" rx="-0" ry="-43.9344" rz="0" jointIndex="2" />
+		<Joint name="top_right" tx="0.91829" ty="0" tz="1.08139" rx="-0" ry="-137.317" rz="0" jointIndex="3" />
+		<Joint name="bottom_right" tx="0.961412" ty="0" tz="2.61663" rx="-0" ry="136.627" rz="0" jointIndex="4" />
+		<Joint name="bottom_left" tx="-0.702376" ty="0" tz="2.61198" rx="-0" ry="44.0123" rz="0" jointIndex="5" />
+	</Joint>
+
+	<Mesh name="pTorus1" material="weedunkPortal/weedunkPortal_mat.material.xml" batchStart="0" batchCount="420" vertRStart="0" vertREnd="79" />
+	<Mesh name="polySurface5" material="weedunkPortal/weedunkPortal_mat.material.xml" tx="-0.507616" ty="-2.27055" tz="-0.000828" rx="-0" ry="47.228" rz="0" sx="1" sy="2.84392" sz="1" batchStart="420" batchCount="516" vertRStart="80" vertREnd="185" />
+	<Mesh name="polySurface6" material="weedunkPortal/weedunkPortal_mat.material.xml" tx="-0.507616" ty="-2.27055" tz="-0.000828" rx="-0" ry="47.228" rz="0" sx="1" sy="2.84392" sz="1" batchStart="936" batchCount="516" vertRStart="186" vertREnd="316" />
+	<Mesh name="polySurface3" material="weedunkPortal/weedunkPortal_mat.material.xml" tx="1.19901" ty="-2.27055" tz="-1.84562" rx="-0" ry="47.228" rz="0" sx="1" sy="2.84392" sz="1" batchStart="1452" batchCount="516" vertRStart="317" vertREnd="454" />
+	<Mesh name="polySurface4" material="weedunkPortal/weedunkPortal_mat.material.xml" tx="1.19901" ty="-2.27055" tz="-1.84562" rx="-0" ry="47.228" rz="0" sx="1" sy="2.84392" sz="1" batchStart="1968" batchCount="516" vertRStart="455" vertREnd="604" />
+</Model>

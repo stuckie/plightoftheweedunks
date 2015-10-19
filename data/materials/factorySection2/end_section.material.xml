@@ -1,0 +1,5 @@
+<Material>
+	<Shader source="skinning.shader.xml" />
+
+	<TexUnit unit="0" map="Exit_section_texture_v17.tga" />
+</Material>

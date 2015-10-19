@@ -1,0 +1,4 @@
+<Material>
+	<Shader source="skinning.shader.xml" />
+
+</Material>

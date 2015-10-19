@@ -1,0 +1,4 @@
+<Model name="rightSteps" geometry="rightSteps.geo">
+
+	<Mesh name="rightSteps" material="rightSteps/pierSectionBack_mat.material.xml" batchStart="0" batchCount="417" vertRStart="0" vertREnd="291" />
+</Model>

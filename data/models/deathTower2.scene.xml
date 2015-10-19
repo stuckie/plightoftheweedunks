@@ -1,0 +1,4 @@
+<Model name="deathTower2" geometry="deathTower2.geo">
+
+	<Mesh name="deathTower2" material="deathTower2/conveyorTower_mat.material.xml" tx="-26.7868" ty="0.156624" tz="43.2223" rx="-0" ry="-90" rz="0" batchStart="0" batchCount="372" vertRStart="0" vertREnd="207" />
+</Model>

@@ -1,0 +1,4 @@
+<Model name="conveyor_section_1" geometry="conveyor_section_1.geo">
+
+	<Mesh name="conveyor_section_1" material="conveyor_section_1/conveyerBeltMincer_mat.material.xml" tx="0" ty="-0.1" tz="0" sx="0.1" sy="0.1" sz="0.1" batchStart="0" batchCount="58620" vertRStart="0" vertREnd="13956" />
+</Model>

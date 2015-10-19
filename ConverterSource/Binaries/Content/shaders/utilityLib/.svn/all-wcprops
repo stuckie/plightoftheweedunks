@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/weedunks/!svn/ver/53/Horde3D/Binaries/Content/shaders/utilityLib
+END
+vertSkinning.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/weedunks/!svn/ver/53/Horde3D/Binaries/Content/shaders/utilityLib/vertSkinning.glsl
+END
+fragPostProcess.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 86
+/weedunks/!svn/ver/53/Horde3D/Binaries/Content/shaders/utilityLib/fragPostProcess.glsl
+END
+vertParticle.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/weedunks/!svn/ver/53/Horde3D/Binaries/Content/shaders/utilityLib/vertParticle.glsl
+END
+fragLighting.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 83
+/weedunks/!svn/ver/53/Horde3D/Binaries/Content/shaders/utilityLib/fragLighting.glsl
+END
+vertCommon.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 81
+/weedunks/!svn/ver/53/Horde3D/Binaries/Content/shaders/utilityLib/vertCommon.glsl
+END
+fragDeferredWrite.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 88
+/weedunks/!svn/ver/53/Horde3D/Binaries/Content/shaders/utilityLib/fragDeferredWrite.glsl
+END
+fragDeferredRead.glsl
+K 25
+svn:wc:ra_dav:version-url
+V 87
+/weedunks/!svn/ver/53/Horde3D/Binaries/Content/shaders/utilityLib/fragDeferredRead.glsl
+END

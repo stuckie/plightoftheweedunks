@@ -1,0 +1,4 @@
+<Model name="conveyorSupport4" geometry="conveyorSupport4.geo">
+
+	<Mesh name="conveyorSupport4" material="conveyorSupport4/toothySupport_mat.material.xml" tx="-98.1623" ty="14.3165" tz="193.318" rx="-0" ry="90" rz="90" sx="0.024365" sy="0.024365" sz="0.02817" batchStart="0" batchCount="666" vertRStart="0" vertREnd="334" />
+</Model>

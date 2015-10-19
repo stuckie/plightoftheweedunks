@@ -1,0 +1,40 @@
+<Model name="teddy" geometry="teddy.geo">
+	<Joint name="Root" tx="0.434351" ty="3.07091" tz="-0.035575" rx="-0" ry="0" rz="90" jointIndex="1">
+		<Joint name="Back1" tx="1.35878" ty="0" tz="0" rx="-0" ry="-18.6673" rz="0" jointIndex="2">
+			<Joint name="Back2" tx="2.01289" ty="0" tz="0" rx="-0" ry="180" rz="178.879" jointIndex="3">
+				<Joint name="Neck" tx="0.618582" ty="0" tz="0" rx="0.24494" ry="-14.8134" rz="-2.07057" jointIndex="4">
+					<Joint name="Head" tx="8.07368" ty="0" tz="0" rx="-0" ry="180" rz="90" jointIndex="5">
+						<Joint name="LtEarRoot" tx="2.62901" ty="0.54702" tz="-0.479387" rx="-0" ry="0" rz="82.7698" jointIndex="6">
+							<Joint name="LtEarEnd" tx="2.63887" ty="0" tz="0" rx="-0" ry="0" rz="-82.7698" jointIndex="7" />
+						</Joint>
+						<Joint name="RtEarRoot" tx="-2.60479" ty="0.547019" tz="-0.479387" rx="-0" ry="180" rz="-97.2303" jointIndex="8">
+							<Joint name="RtEarEnd" tx="-2.63886" ty="0" tz="0" rx="-0" ry="0" rz="-82.7698" jointIndex="9" />
+						</Joint>
+					</Joint>
+				</Joint>
+				<Joint name="LtShoulder" tx="-0.129324" ty="1.46425" tz="0" rx="9.05462" ry="-171.383" rz="28.1281" jointIndex="10">
+					<Joint name="LtElbow" tx="2.49096" ty="0" tz="0" rx="-1.57572" ry="-22.0129" rz="-3.89112" jointIndex="11">
+						<Joint name="LtHand" tx="2.74994" ty="-0.212738" tz="0" rx="-0" ry="0" rz="4.19764" jointIndex="12" />
+					</Joint>
+				</Joint>
+				<Joint name="RtShoulder" tx="-0.071928" ty="-1.46819" tz="0" rx="-9.26257" ry="13.2189" rz="29.0115" jointIndex="13">
+					<Joint name="RtElbow" tx="-2.49096" ty="0" tz="0" rx="-1.5384" ry="-21.4648" rz="-3.90605" jointIndex="14">
+						<Joint name="RtHand" tx="-2.74995" ty="0.146164" tz="0" rx="-0" ry="0" rz="4.19764" jointIndex="15" />
+					</Joint>
+				</Joint>
+			</Joint>
+		</Joint>
+		<Joint name="LtHip1" tx="0.053014" ty="-1.1236" tz="0" rx="2.30821" ry="14.8781" rz="172.411" jointIndex="16">
+			<Joint name="LtKnee" tx="2.38609" ty="0" tz="0" rx="-0" ry="52.7981" rz="0" jointIndex="17">
+				<Joint name="LtFoot" tx="1.15483" ty="0" tz="-0.120057" rx="0.267859" ry="-37.7483" rz="97.9257" jointIndex="18" />
+			</Joint>
+		</Joint>
+		<Joint name="RtHip" tx="0.036031" ty="1.12663" tz="0" rx="7.28945" ry="42.5802" rz="172.605" jointIndex="19">
+			<Joint name="RtKnee" tx="2.3776" ty="0" tz="0" rx="-0" ry="89.7531" rz="0" jointIndex="20">
+				<Joint name="RtFoot" tx="1.14634" ty="0" tz="-0.120057" rx="-5.99525" ry="-9.90312" rz="98.476" jointIndex="21" />
+			</Joint>
+		</Joint>
+	</Joint>
+
+	<Mesh name="BearMesh" material="teddy/lambert4.material.xml" batchStart="0" batchCount="1536" vertRStart="0" vertREnd="365" />
+</Model>

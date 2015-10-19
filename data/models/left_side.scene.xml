@@ -1,0 +1,4 @@
+<Model name="left_side" geometry="left_side.geo">
+
+	<Mesh name="left_side" material="left_side/breakableWall_mat.material.xml" sx="0.1" sy="0.1" sz="0.1" batchStart="0" batchCount="510" vertRStart="0" vertREnd="322" />
+</Model>

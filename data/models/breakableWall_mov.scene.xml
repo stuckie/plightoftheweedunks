@@ -1,0 +1,4 @@
+<Model name="breakableWall_mov" geometry="breakableWall_mov.geo">
+
+	<Mesh name="breakableWall_mov" material="breakableWall_mov/breakableWall_mat.material.xml" tx="-27.3924" ty="10.8691" tz="34.9753" rx="-0" ry="-90" rz="0" batchStart="0" batchCount="384" vertRStart="0" vertREnd="225" />
+</Model>

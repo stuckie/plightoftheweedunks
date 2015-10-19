@@ -1,0 +1,47 @@
+K 25
+svn:wc:ra_dav:version-url
+V 45
+/weedunks/!svn/ver/238/Horde3D/Binaries/Win32
+END
+Horde3D.dll
+K 25
+svn:wc:ra_dav:version-url
+V 57
+/weedunks/!svn/ver/162/Horde3D/Binaries/Win32/Horde3D.dll
+END
+Horde3DUtils.dll
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/weedunks/!svn/ver/162/Horde3D/Binaries/Win32/Horde3DUtils.dll
+END
+ColladaConv.exe
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/weedunks/!svn/ver/238/Horde3D/Binaries/Win32/ColladaConv.exe
+END
+Sample_Knight.exe
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/weedunks/!svn/ver/162/Horde3D/Binaries/Win32/Sample_Knight.exe
+END
+GLFW.dll
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/weedunks/!svn/ver/53/Horde3D/Binaries/Win32/GLFW.dll
+END
+ColladaConv.bat
+K 25
+svn:wc:ra_dav:version-url
+V 60
+/weedunks/!svn/ver/53/Horde3D/Binaries/Win32/ColladaConv.bat
+END
+Sample_Chicago.exe
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/weedunks/!svn/ver/162/Horde3D/Binaries/Win32/Sample_Chicago.exe
+END

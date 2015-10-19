@@ -1,0 +1,26 @@
+<Model name="battleRoom" geometry="battleRoom.geo">
+
+	<Mesh name="mulch_pool1" material="battleRoom/mulch_pool2.material.xml" tx="-80.6875" ty="14.3404" tz="13.72" sx="114.512" sy="2.62867" sz="134.918" batchStart="0" batchCount="36" vertRStart="0" vertREnd="23" />
+	<Mesh name="floor" material="battleRoom/battle_floor.material.xml" tx="-80.6875" ty="14.3404" tz="13.72" sx="9.90869" sy="7.66625" sz="7.6171" batchStart="36" batchCount="30" vertRStart="24" vertREnd="43" />
+	<Mesh name="pCube46" material="battleRoom/lambert37.material.xml" tx="-80.6875" ty="18.1652" tz="17.471" rx="-0" ry="180" rz="0" sx="9.60246" sy="0.458462" sz="0.279888" batchStart="66" batchCount="30" vertRStart="44" vertREnd="63" />
+	<Mesh name="pCube47" material="battleRoom/lambert37.material.xml" tx="-85.5887" ty="18.2128" tz="13.765" rx="-0" ry="90" rz="0" sx="8.16372" sy="0.389115" sz="0.279888" batchStart="96" batchCount="30" vertRStart="64" vertREnd="83" />
+	<Mesh name="pCube48" material="battleRoom/lambert37.material.xml" tx="-75.8241" ty="18.2157" tz="13.765" rx="-0" ry="-90" rz="0" sx="8.16372" sy="0.389115" sz="0.279888" batchStart="126" batchCount="30" vertRStart="84" vertREnd="103" />
+	<Mesh name="pCube59" material="battleRoom/lambert37.material.xml" tx="-80.6875" ty="18.1652" tz="9.90716" sx="9.60246" sy="0.458462" sz="0.279888" batchStart="156" batchCount="30" vertRStart="104" vertREnd="123" />
+	<Mesh name="pPipe5" material="battleRoom/lambert5.material.xml" tx="-76.0266" ty="33.5294" tz="7.75171" rx="-0" ry="-45" rz="0" sx="0.244209" sy="0.186579" sz="0.244209" batchStart="186" batchCount="600" vertRStart="124" vertREnd="276" />
+	<Mesh name="pSphere2" material="battleRoom/lambert6.material.xml" tx="-76.0266" ty="33.5945" tz="7.75171" rx="-0" ry="-45" rz="0" sx="0.160799" sy="0.160799" sz="0.160799" batchStart="786" batchCount="270" vertRStart="277" vertREnd="327" />
+	<Mesh name="weedunk_portals_pTorus3" material="battleRoom/weedunkPortal_mat.material.xml" tx="-80.7869" ty="27.2342" tz="13.3824" batchStart="1056" batchCount="420" vertRStart="328" vertREnd="407" />
+	<Mesh name="polySurface2" material="battleRoom/teeth_end_pipe.material.xml" tx="-76.0408" ty="26.664" tz="7.80362" sx="0.343633" sy="0.343633" sz="0.343633" batchStart="1476" batchCount="1116" vertRStart="408" vertREnd="687" />
+	<Mesh name="polySurface117" material="battleRoom/teeth_end_pipe.material.xml" tx="-87.6652" ty="26.664" tz="17.9365" sx="0.343633" sy="0.343633" sz="0.343633" batchStart="2592" batchCount="1116" vertRStart="688" vertREnd="967" />
+	<Mesh name="polySurface119" material="battleRoom/teeth_end_pipe.material.xml" tx="-72.9814" ty="26.664" tz="17.9365" sx="0.343633" sy="0.343633" sz="0.343633" batchStart="3708" batchCount="1116" vertRStart="968" vertREnd="1247" />
+	<Mesh name="polySurface120" material="battleRoom/teeth_end_pipe.material.xml" tx="-87.6652" ty="26.664" tz="6.9193" sx="0.343633" sy="0.343633" sz="0.343633" batchStart="4824" batchCount="1116" vertRStart="1248" vertREnd="1527" />
+	<Mesh name="polySurface115" material="battleRoom/lambert37.material.xml" tx="-124.32" ty="0" tz="66.9716" rx="-0" ry="-135" rz="0" batchStart="5940" batchCount="1536" vertRStart="1528" vertREnd="1926" />
+	<Mesh name="pPipe6" material="battleRoom/lambert5.material.xml" tx="-87.651" ty="33.5294" tz="17.8846" rx="-0" ry="-45" rz="0" sx="0.244209" sy="0.186579" sz="0.244209" batchStart="7476" batchCount="600" vertRStart="1927" vertREnd="2079" />
+	<Mesh name="pSphere21" material="battleRoom/lambert6.material.xml" tx="-87.651" ty="33.5945" tz="17.8846" rx="-0" ry="-45" rz="0" sx="0.160799" sy="0.160799" sz="0.160799" batchStart="8076" batchCount="270" vertRStart="2080" vertREnd="2130" />
+	<Mesh name="polySurface116" material="battleRoom/lambert37.material.xml" tx="-135.944" ty="0" tz="77.1045" rx="-0" ry="-135" rz="0" batchStart="8346" batchCount="1536" vertRStart="2131" vertREnd="2529" />
+	<Mesh name="pPipe7" material="battleRoom/lambert5.material.xml" tx="-72.9671" ty="33.5294" tz="17.8846" rx="-0" ry="-45" rz="0" sx="0.244209" sy="0.186579" sz="0.244209" batchStart="9882" batchCount="600" vertRStart="2530" vertREnd="2682" />
+	<Mesh name="pSphere22" material="battleRoom/lambert6.material.xml" tx="-72.9671" ty="33.5945" tz="17.8846" rx="-0" ry="-45" rz="0" sx="0.160799" sy="0.160799" sz="0.160799" batchStart="10482" batchCount="270" vertRStart="2683" vertREnd="2733" />
+	<Mesh name="polySurface118" material="battleRoom/lambert37.material.xml" tx="-121.261" ty="0" tz="77.1045" rx="-0" ry="-135" rz="0" batchStart="10752" batchCount="1536" vertRStart="2734" vertREnd="3132" />
+	<Mesh name="pPipe8" material="battleRoom/lambert5.material.xml" tx="-87.651" ty="33.5294" tz="6.86739" rx="-0" ry="-45" rz="0" sx="0.244209" sy="0.186579" sz="0.244209" batchStart="12288" batchCount="600" vertRStart="3133" vertREnd="3285" />
+	<Mesh name="pSphere23" material="battleRoom/lambert6.material.xml" tx="-87.651" ty="33.5945" tz="6.86739" rx="-0" ry="-45" rz="0" sx="0.160799" sy="0.160799" sz="0.160799" batchStart="12888" batchCount="270" vertRStart="3286" vertREnd="3336" />
+	<Mesh name="polySurface121" material="battleRoom/lambert37.material.xml" tx="-135.944" ty="0" tz="66.0873" rx="-0" ry="-135" rz="0" batchStart="13158" batchCount="1536" vertRStart="3337" vertREnd="3735" />
+</Model>

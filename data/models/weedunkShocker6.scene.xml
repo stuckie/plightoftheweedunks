@@ -1,0 +1,4 @@
+<Model name="weedunkShocker6" geometry="weedunkShocker6.geo">
+
+	<Mesh name="weedunkShocker6" material="weedunkShocker6/weedunkPortal_mat.material.xml" tx="-38.6133" ty="-1.48495" tz="31.4374" batchStart="0" batchCount="420" vertRStart="0" vertREnd="79" />
+</Model>

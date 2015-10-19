@@ -1,0 +1,4 @@
+<Model name="exitBrace4" geometry="exitBrace4.geo">
+
+	<Mesh name="exitBrace4" material="exitBrace4/pierSectionBack_mat.material.xml" tx="5.82216" ty="0" tz="0" batchStart="0" batchCount="1116" vertRStart="0" vertREnd="269" />
+</Model>

@@ -1,0 +1,5 @@
+<Material>
+	<Shader source="skinning.shader.xml" />
+
+	<TexUnit unit="0" map="entrance_pipe_pillar_texture_v4.tga" />
+</Material>

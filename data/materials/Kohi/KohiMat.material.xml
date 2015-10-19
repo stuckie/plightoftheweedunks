@@ -1,0 +1,7 @@
+<Material class="Player.Kohi">
+	<Shader source="skinning.shader.xml" />
+	<Shader Source="Players.shader.xml" />
+	<Shader source="shadowSkin.shader.xml" />
+
+	<TexUnit unit="0" map="Kohi_Diffuse.tga" />
+</Material>

@@ -1,0 +1,1669 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Horde3D Log</title>
+<style type="text/css">
+body, html {
+background: #000000;
+width: 1000px;
+font-family: Arial;
+font-size: 16px;
+color: #C0C0C0;
+}
+h1 {
+color : #FFFFFF;
+border-bottom : 1px dotted #888888;
+}
+.box {
+border : 1px dotted #818286;
+padding : 5px;
+margin: 5px;
+width: 950px;
+background-color : #292929;
+}
+.err {
+color: #EE1100;
+font-weight: bold
+}
+.warn {
+color: #FFCC00;
+font-weight: bold
+}
+.info {
+color: #C0C0C0;
+}
+.debug {
+color: #CCA0A0;
+}
+</style>
+</head>
+
+<body>
+<h1>Horde3D Log</h1>
+<h3>Horde3D 1.0.0 Beta1</h3>
+<div class="box">
+<table>
+<tr>
+<td width="100">0.015</td>
+<td class="info">Initializing OpenGL renderer using OGL '2.0.5883 WinXP Release' by 'ATI Technologies Inc.' on 'ATI Mobility Radeon X1300 x86/SSE2'</td>
+</tr>
+<tr>
+<td width="100">0.015</td>
+<td class="warn">Extension ARB_texture_non_power_of_two not supported</td>
+</tr>
+<tr>
+<td width="100">0.015</td>
+<td class="warn">Extension EXT_framebuffer_multisample and/or EXT_framebuffer_blit not supported</td>
+</tr>
+<tr>
+<td width="100">0.031</td>
+<td class="warn">Shadow map precision is limited to 16 bit</td>
+</tr>
+<tr>
+<td width="100">0.031</td>
+<td class="warn">Shadow map precision is limited to 16 bit</td>
+</tr>
+<tr>
+<td width="100">0.031</td>
+<td class="info">Adding Pipeline resource 'forward.pipeline.xml'</td>
+</tr>
+<tr>
+<td width="100">0.031</td>
+<td class="info">Adding Pipeline resource 'deferred.pipeline.xml'</td>
+</tr>
+<tr>
+<td width="100">0.031</td>
+<td class="info">Adding Material resource 'font.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.031</td>
+<td class="info">Adding Material resource 'logo.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.031</td>
+<td class="info">Adding Material resource 'light.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.031</td>
+<td class="info">Adding SceneGraph resource 'platform.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">0.031</td>
+<td class="info">Adding SceneGraph resource 'skybox.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">0.047</td>
+<td class="info">Loading resource 'forward.pipeline.xml'</td>
+</tr>
+<tr>
+<td width="100">0.047</td>
+<td class="info">Adding Material resource 'globalSettings.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.062</td>
+<td class="info">Loading resource 'deferred.pipeline.xml'</td>
+</tr>
+<tr>
+<td width="100">0.062</td>
+<td class="info">Loading resource 'font.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.062</td>
+<td class="info">Adding Shader resource 'overlay.shader.xml'</td>
+</tr>
+<tr>
+<td width="100">0.062</td>
+<td class="info">Adding Texture2D resource 'font.tga'</td>
+</tr>
+<tr>
+<td width="100">0.062</td>
+<td class="info">Loading resource 'logo.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.062</td>
+<td class="info">Adding Texture2D resource 'logo.tga'</td>
+</tr>
+<tr>
+<td width="100">0.078</td>
+<td class="info">Loading resource 'light.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.078</td>
+<td class="info">Adding Shader resource 'deferredLighting.shader.xml'</td>
+</tr>
+<tr>
+<td width="100">0.078</td>
+<td class="info">Loading resource 'platform.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">0.078</td>
+<td class="info">Adding Geometry resource 'platform.geo'</td>
+</tr>
+<tr>
+<td width="100">0.078</td>
+<td class="info">Adding Material resource 'platform/stones.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.078</td>
+<td class="info">Loading resource 'skybox.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">0.078</td>
+<td class="info">Adding Geometry resource 'skybox.geo'</td>
+</tr>
+<tr>
+<td width="100">0.078</td>
+<td class="info">Adding Material resource 'skybox/skybox.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.078</td>
+<td class="info">Loading resource 'globalSettings.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.078</td>
+<td class="info">Adding TextureCube resource 'ambientMap.png'</td>
+</tr>
+<tr>
+<td width="100">0.109</td>
+<td class="info">Loading resource 'overlay.shader.xml'</td>
+</tr>
+<tr>
+<td width="100">0.109</td>
+<td class="info">Shader resource 'overlay.shader.xml': Compiling shader context 'OVERLAY'</td>
+</tr>
+<tr>
+<td width="100">0.109</td>
+<td class="info">Shader resource 'overlay.shader.xml': ShaderLog: [Linking] <pre>
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">0.172</td>
+<td class="info">Loading resource 'font.tga'</td>
+</tr>
+<tr>
+<td width="100">0.218</td>
+<td class="info">Loading resource 'logo.tga'</td>
+</tr>
+<tr>
+<td width="100">0.234</td>
+<td class="info">Loading resource 'deferredLighting.shader.xml'</td>
+</tr>
+<tr>
+<td width="100">0.234</td>
+<td class="info">Adding Code resource 'utilityLib/fragDeferredRead.glsl'</td>
+</tr>
+<tr>
+<td width="100">0.234</td>
+<td class="info">Adding Code resource 'utilityLib/fragLighting.glsl'</td>
+</tr>
+<tr>
+<td width="100">0.234</td>
+<td class="info">Loading resource 'platform.geo'</td>
+</tr>
+<tr>
+<td width="100">0.234</td>
+<td class="info">Loading resource 'platform/stones.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.234</td>
+<td class="info">Adding Shader resource 'parallax.shader.xml'</td>
+</tr>
+<tr>
+<td width="100">0.234</td>
+<td class="info">Adding Texture2D resource 'layingrock.jpg'</td>
+</tr>
+<tr>
+<td width="100">0.234</td>
+<td class="info">Adding Texture2D resource 'layingrockBump.tga'</td>
+</tr>
+<tr>
+<td width="100">0.234</td>
+<td class="info">Loading resource 'skybox.geo'</td>
+</tr>
+<tr>
+<td width="100">0.250</td>
+<td class="info">Loading resource 'skybox/skybox.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.250</td>
+<td class="info">Adding Shader resource 'skybox.shader.xml'</td>
+</tr>
+<tr>
+<td width="100">0.250</td>
+<td class="info">Adding TextureCube resource 'skybox.jpg'</td>
+</tr>
+<tr>
+<td width="100">0.250</td>
+<td class="info">Loading resource 'ambientMap.png'</td>
+</tr>
+<tr>
+<td width="100">0.265</td>
+<td class="info">Loading resource 'utilityLib/fragDeferredRead.glsl'</td>
+</tr>
+<tr>
+<td width="100">0.265</td>
+<td class="info">Shader resource 'deferredLighting.shader.xml': Compiling shader context 'AMBIENT'</td>
+</tr>
+<tr>
+<td width="100">0.265</td>
+<td class="info">Shader resource 'deferredLighting.shader.xml': ShaderLog: [Linking] <pre>
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">0.265</td>
+<td class="info">Loading resource 'utilityLib/fragLighting.glsl'</td>
+</tr>
+<tr>
+<td width="100">0.265</td>
+<td class="info">Shader resource 'deferredLighting.shader.xml': Compiling shader context 'LIGHTING'</td>
+</tr>
+<tr>
+<td width="100">0.297</td>
+<td class="info">Shader resource 'deferredLighting.shader.xml': ShaderLog: [Linking] <pre>
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">0.312</td>
+<td class="info">Loading resource 'parallax.shader.xml'</td>
+</tr>
+<tr>
+<td width="100">0.312</td>
+<td class="info">Adding Code resource 'utilityLib/vertCommon.glsl'</td>
+</tr>
+<tr>
+<td width="100">0.312</td>
+<td class="info">Adding Code resource 'utilityLib/fragDeferredWrite.glsl'</td>
+</tr>
+<tr>
+<td width="100">0.312</td>
+<td class="info">Loading resource 'layingrock.jpg'</td>
+</tr>
+<tr>
+<td width="100">0.406</td>
+<td class="info">Loading resource 'layingrockBump.tga'</td>
+</tr>
+<tr>
+<td width="100">0.437</td>
+<td class="info">Loading resource 'skybox.shader.xml'</td>
+</tr>
+<tr>
+<td width="100">0.437</td>
+<td class="info">Loading resource 'skybox.jpg'</td>
+</tr>
+<tr>
+<td width="100">1.218</td>
+<td class="info">Loading resource 'utilityLib/vertCommon.glsl'</td>
+</tr>
+<tr>
+<td width="100">1.218</td>
+<td class="info">Shader resource 'parallax.shader.xml': Compiling shader context 'LIGHTING'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Shader resource 'parallax.shader.xml': ShaderLog: [Linking] <pre>
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Shader resource 'parallax.shader.xml': Compiling shader context 'AMBIENT'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Shader resource 'parallax.shader.xml': ShaderLog: [Linking] <pre>
+Warning: varying pos is written to in the vertex shader but not read in the fragment shader.
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Shader resource 'skybox.shader.xml': Compiling shader context 'AMBIENT'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Shader resource 'skybox.shader.xml': ShaderLog: [Linking] <pre>
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">1.265</td>
+<td class="info">Loading resource 'utilityLib/fragDeferredWrite.glsl'</td>
+</tr>
+<tr>
+<td width="100">1.265</td>
+<td class="info">Shader resource 'parallax.shader.xml': Compiling shader context 'ATTRIBPASS'</td>
+</tr>
+<tr>
+<td width="100">1.281</td>
+<td class="info">Shader resource 'parallax.shader.xml': ShaderLog: [Linking] <pre>
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">1.281</td>
+<td class="info">Shader resource 'skybox.shader.xml': Compiling shader context 'ATTRIBPASS'</td>
+</tr>
+<tr>
+<td width="100">1.281</td>
+<td class="info">Shader resource 'skybox.shader.xml': ShaderLog: [Linking] <pre>
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">1.281</td>
+<td class="info">Adding Camera node 'Camera'</td>
+</tr>
+<tr>
+<td width="100">1.281</td>
+<td class="info">Adding nodes from SceneGraph resource 'platform.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.281</td>
+<td class="info">Adding nodes from SceneGraph resource 'skybox.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.281</td>
+<td class="info">Adding Light node 'Light1'</td>
+</tr>
+<tr>
+<td width="100">1.281</td>
+<td class="info">Adding SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.281</td>
+<td class="info">Adding Animation resource 'man.anim'</td>
+</tr>
+<tr>
+<td width="100">1.281</td>
+<td class="info">Loading resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.281</td>
+<td class="info">Adding Geometry resource 'Kohi.geo'</td>
+</tr>
+<tr>
+<td width="100">1.281</td>
+<td class="info">Adding Material resource 'Kohi/KohiMat.material.xml'</td>
+</tr>
+<tr>
+<td width="100">1.281</td>
+<td class="info">Loading resource 'man.anim'</td>
+</tr>
+<tr>
+<td width="100">1.281</td>
+<td class="info">Loading resource 'Kohi.geo'</td>
+</tr>
+<tr>
+<td width="100">1.281</td>
+<td class="info">Loading resource 'Kohi/KohiMat.material.xml'</td>
+</tr>
+<tr>
+<td width="100">1.281</td>
+<td class="info">Adding Shader resource 'skinning.shader.xml'</td>
+</tr>
+<tr>
+<td width="100">1.281</td>
+<td class="info">Adding Texture2D resource 'Kohi_Diffuse.tga'</td>
+</tr>
+<tr>
+<td width="100">1.281</td>
+<td class="info">Loading resource 'skinning.shader.xml'</td>
+</tr>
+<tr>
+<td width="100">1.281</td>
+<td class="info">Adding Code resource 'utilityLib/vertSkinning.glsl'</td>
+</tr>
+<tr>
+<td width="100">1.312</td>
+<td class="info">Loading resource 'Kohi_Diffuse.tga'</td>
+</tr>
+<tr>
+<td width="100">1.875</td>
+<td class="info">Loading resource 'utilityLib/vertSkinning.glsl'</td>
+</tr>
+<tr>
+<td width="100">1.875</td>
+<td class="info">Shader resource 'skinning.shader.xml': Compiling shader context 'ATTRIBPASS'</td>
+</tr>
+<tr>
+<td width="100">1.890</td>
+<td class="info">Shader resource 'skinning.shader.xml': ShaderLog: [Linking] <pre>
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">1.890</td>
+<td class="info">Shader resource 'skinning.shader.xml': Compiling shader context 'SHADOWMAP'</td>
+</tr>
+<tr>
+<td width="100">1.890</td>
+<td class="info">Shader resource 'skinning.shader.xml': ShaderLog: [Linking] <pre>
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">1.890</td>
+<td class="info">Shader resource 'skinning.shader.xml': Compiling shader context 'LIGHTING'</td>
+</tr>
+<tr>
+<td width="100">1.922</td>
+<td class="info">Shader resource 'skinning.shader.xml': ShaderLog: [Linking] <pre>
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">1.922</td>
+<td class="info">Shader resource 'skinning.shader.xml': Compiling shader context 'AMBIENT'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Shader resource 'skinning.shader.xml': ShaderLog: [Linking] <pre>
+Warning: varying pos is written to in the vertex shader but not read in the fragment shader.
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.937</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.953</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.953</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.953</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.953</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.953</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.953</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.953</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.953</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.953</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.953</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.953</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.953</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.953</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.953</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.953</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.953</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.953</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.953</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.953</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.953</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.968</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.968</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.968</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.968</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.968</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.968</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.968</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.968</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.968</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.968</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.968</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.968</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.968</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.968</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.968</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.984</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.984</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.984</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.984</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.984</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.984</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.984</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.984</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.984</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.984</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.984</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.984</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.984</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">2.000</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">2.000</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">2.000</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">2.000</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">2.000</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">2.000</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">2.000</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">2.000</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">2.000</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">2.000</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">2.000</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">2.015</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">2.015</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">2.015</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">0.016</td>
+<td class="info">Initializing OpenGL renderer using OGL '2.0.5883 WinXP Release' by 'ATI Technologies Inc.' on 'ATI Mobility Radeon X1300 x86/SSE2'</td>
+</tr>
+<tr>
+<td width="100">0.016</td>
+<td class="warn">Extension ARB_texture_non_power_of_two not supported</td>
+</tr>
+<tr>
+<td width="100">0.016</td>
+<td class="warn">Extension EXT_framebuffer_multisample and/or EXT_framebuffer_blit not supported</td>
+</tr>
+<tr>
+<td width="100">0.032</td>
+<td class="warn">Shadow map precision is limited to 16 bit</td>
+</tr>
+<tr>
+<td width="100">0.032</td>
+<td class="warn">Shadow map precision is limited to 16 bit</td>
+</tr>
+<tr>
+<td width="100">0.032</td>
+<td class="info">Adding Pipeline resource 'forward.pipeline.xml'</td>
+</tr>
+<tr>
+<td width="100">0.032</td>
+<td class="info">Adding Pipeline resource 'deferred.pipeline.xml'</td>
+</tr>
+<tr>
+<td width="100">0.032</td>
+<td class="info">Adding Material resource 'font.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.032</td>
+<td class="info">Adding Material resource 'logo.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.032</td>
+<td class="info">Adding Material resource 'light.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.032</td>
+<td class="info">Adding SceneGraph resource 'platform.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">0.032</td>
+<td class="info">Adding SceneGraph resource 'skybox.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">0.032</td>
+<td class="info">Loading resource 'forward.pipeline.xml'</td>
+</tr>
+<tr>
+<td width="100">0.032</td>
+<td class="info">Adding Material resource 'globalSettings.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.032</td>
+<td class="info">Loading resource 'deferred.pipeline.xml'</td>
+</tr>
+<tr>
+<td width="100">0.047</td>
+<td class="info">Loading resource 'font.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.047</td>
+<td class="info">Adding Shader resource 'overlay.shader.xml'</td>
+</tr>
+<tr>
+<td width="100">0.047</td>
+<td class="info">Adding Texture2D resource 'font.tga'</td>
+</tr>
+<tr>
+<td width="100">0.047</td>
+<td class="info">Loading resource 'logo.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.047</td>
+<td class="info">Adding Texture2D resource 'logo.tga'</td>
+</tr>
+<tr>
+<td width="100">0.047</td>
+<td class="info">Loading resource 'light.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.047</td>
+<td class="info">Adding Shader resource 'deferredLighting.shader.xml'</td>
+</tr>
+<tr>
+<td width="100">0.047</td>
+<td class="info">Loading resource 'platform.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">0.047</td>
+<td class="info">Adding Geometry resource 'platform.geo'</td>
+</tr>
+<tr>
+<td width="100">0.047</td>
+<td class="info">Adding Material resource 'platform/stones.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.047</td>
+<td class="info">Loading resource 'skybox.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">0.047</td>
+<td class="info">Adding Geometry resource 'skybox.geo'</td>
+</tr>
+<tr>
+<td width="100">0.047</td>
+<td class="info">Adding Material resource 'skybox/skybox.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.047</td>
+<td class="info">Loading resource 'globalSettings.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.047</td>
+<td class="info">Adding TextureCube resource 'ambientMap.png'</td>
+</tr>
+<tr>
+<td width="100">0.047</td>
+<td class="info">Loading resource 'overlay.shader.xml'</td>
+</tr>
+<tr>
+<td width="100">0.047</td>
+<td class="info">Shader resource 'overlay.shader.xml': Compiling shader context 'OVERLAY'</td>
+</tr>
+<tr>
+<td width="100">0.047</td>
+<td class="info">Shader resource 'overlay.shader.xml': ShaderLog: [Linking] <pre>
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">0.047</td>
+<td class="info">Loading resource 'font.tga'</td>
+</tr>
+<tr>
+<td width="100">0.063</td>
+<td class="info">Loading resource 'logo.tga'</td>
+</tr>
+<tr>
+<td width="100">0.063</td>
+<td class="info">Loading resource 'deferredLighting.shader.xml'</td>
+</tr>
+<tr>
+<td width="100">0.063</td>
+<td class="info">Adding Code resource 'utilityLib/fragDeferredRead.glsl'</td>
+</tr>
+<tr>
+<td width="100">0.063</td>
+<td class="info">Adding Code resource 'utilityLib/fragLighting.glsl'</td>
+</tr>
+<tr>
+<td width="100">0.063</td>
+<td class="info">Loading resource 'platform.geo'</td>
+</tr>
+<tr>
+<td width="100">0.063</td>
+<td class="info">Loading resource 'platform/stones.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.063</td>
+<td class="info">Adding Shader resource 'parallax.shader.xml'</td>
+</tr>
+<tr>
+<td width="100">0.063</td>
+<td class="info">Adding Texture2D resource 'layingrock.jpg'</td>
+</tr>
+<tr>
+<td width="100">0.063</td>
+<td class="info">Adding Texture2D resource 'layingrockBump.tga'</td>
+</tr>
+<tr>
+<td width="100">0.063</td>
+<td class="info">Loading resource 'skybox.geo'</td>
+</tr>
+<tr>
+<td width="100">0.063</td>
+<td class="info">Loading resource 'skybox/skybox.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.063</td>
+<td class="info">Adding Shader resource 'skybox.shader.xml'</td>
+</tr>
+<tr>
+<td width="100">0.063</td>
+<td class="info">Adding TextureCube resource 'skybox.jpg'</td>
+</tr>
+<tr>
+<td width="100">0.063</td>
+<td class="info">Loading resource 'ambientMap.png'</td>
+</tr>
+<tr>
+<td width="100">0.078</td>
+<td class="info">Loading resource 'utilityLib/fragDeferredRead.glsl'</td>
+</tr>
+<tr>
+<td width="100">0.078</td>
+<td class="info">Shader resource 'deferredLighting.shader.xml': Compiling shader context 'AMBIENT'</td>
+</tr>
+<tr>
+<td width="100">0.078</td>
+<td class="info">Shader resource 'deferredLighting.shader.xml': ShaderLog: [Linking] <pre>
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">0.078</td>
+<td class="info">Loading resource 'utilityLib/fragLighting.glsl'</td>
+</tr>
+<tr>
+<td width="100">0.078</td>
+<td class="info">Shader resource 'deferredLighting.shader.xml': Compiling shader context 'LIGHTING'</td>
+</tr>
+<tr>
+<td width="100">0.094</td>
+<td class="info">Shader resource 'deferredLighting.shader.xml': ShaderLog: [Linking] <pre>
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">0.094</td>
+<td class="info">Loading resource 'parallax.shader.xml'</td>
+</tr>
+<tr>
+<td width="100">0.094</td>
+<td class="info">Adding Code resource 'utilityLib/vertCommon.glsl'</td>
+</tr>
+<tr>
+<td width="100">0.094</td>
+<td class="info">Adding Code resource 'utilityLib/fragDeferredWrite.glsl'</td>
+</tr>
+<tr>
+<td width="100">0.094</td>
+<td class="info">Loading resource 'layingrock.jpg'</td>
+</tr>
+<tr>
+<td width="100">0.141</td>
+<td class="info">Loading resource 'layingrockBump.tga'</td>
+</tr>
+<tr>
+<td width="100">0.157</td>
+<td class="info">Loading resource 'skybox.shader.xml'</td>
+</tr>
+<tr>
+<td width="100">0.157</td>
+<td class="info">Loading resource 'skybox.jpg'</td>
+</tr>
+<tr>
+<td width="100">0.844</td>
+<td class="info">Loading resource 'utilityLib/vertCommon.glsl'</td>
+</tr>
+<tr>
+<td width="100">0.844</td>
+<td class="info">Shader resource 'parallax.shader.xml': Compiling shader context 'LIGHTING'</td>
+</tr>
+<tr>
+<td width="100">0.860</td>
+<td class="info">Shader resource 'parallax.shader.xml': ShaderLog: [Linking] <pre>
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">0.860</td>
+<td class="info">Shader resource 'parallax.shader.xml': Compiling shader context 'AMBIENT'</td>
+</tr>
+<tr>
+<td width="100">0.875</td>
+<td class="info">Shader resource 'parallax.shader.xml': ShaderLog: [Linking] <pre>
+Warning: varying pos is written to in the vertex shader but not read in the fragment shader.
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">0.875</td>
+<td class="info">Shader resource 'skybox.shader.xml': Compiling shader context 'AMBIENT'</td>
+</tr>
+<tr>
+<td width="100">0.875</td>
+<td class="info">Shader resource 'skybox.shader.xml': ShaderLog: [Linking] <pre>
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">0.875</td>
+<td class="info">Loading resource 'utilityLib/fragDeferredWrite.glsl'</td>
+</tr>
+<tr>
+<td width="100">0.875</td>
+<td class="info">Shader resource 'parallax.shader.xml': Compiling shader context 'ATTRIBPASS'</td>
+</tr>
+<tr>
+<td width="100">0.891</td>
+<td class="info">Shader resource 'parallax.shader.xml': ShaderLog: [Linking] <pre>
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">0.891</td>
+<td class="info">Shader resource 'skybox.shader.xml': Compiling shader context 'ATTRIBPASS'</td>
+</tr>
+<tr>
+<td width="100">0.891</td>
+<td class="info">Shader resource 'skybox.shader.xml': ShaderLog: [Linking] <pre>
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">0.891</td>
+<td class="info">Adding Camera node 'Camera'</td>
+</tr>
+<tr>
+<td width="100">0.891</td>
+<td class="info">Adding nodes from SceneGraph resource 'platform.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">0.891</td>
+<td class="info">Adding nodes from SceneGraph resource 'skybox.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">0.891</td>
+<td class="info">Adding Light node 'Light1'</td>
+</tr>
+<tr>
+<td width="100">0.891</td>
+<td class="info">Adding SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">0.891</td>
+<td class="info">Adding Animation resource 'man.anim'</td>
+</tr>
+<tr>
+<td width="100">0.891</td>
+<td class="info">Loading resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">0.891</td>
+<td class="info">Adding Geometry resource 'Kohi.geo'</td>
+</tr>
+<tr>
+<td width="100">0.891</td>
+<td class="info">Adding Material resource 'Kohi/KohiMat.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.891</td>
+<td class="info">Loading resource 'man.anim'</td>
+</tr>
+<tr>
+<td width="100">0.891</td>
+<td class="info">Loading resource 'Kohi.geo'</td>
+</tr>
+<tr>
+<td width="100">0.891</td>
+<td class="info">Loading resource 'Kohi/KohiMat.material.xml'</td>
+</tr>
+<tr>
+<td width="100">0.891</td>
+<td class="info">Adding Shader resource 'skinning.shader.xml'</td>
+</tr>
+<tr>
+<td width="100">0.891</td>
+<td class="info">Adding Texture2D resource 'Kohi_Diffuse.tga'</td>
+</tr>
+<tr>
+<td width="100">0.891</td>
+<td class="info">Loading resource 'skinning.shader.xml'</td>
+</tr>
+<tr>
+<td width="100">0.891</td>
+<td class="info">Adding Code resource 'utilityLib/vertSkinning.glsl'</td>
+</tr>
+<tr>
+<td width="100">0.922</td>
+<td class="info">Loading resource 'Kohi_Diffuse.tga'</td>
+</tr>
+<tr>
+<td width="100">1.172</td>
+<td class="info">Loading resource 'utilityLib/vertSkinning.glsl'</td>
+</tr>
+<tr>
+<td width="100">1.172</td>
+<td class="info">Shader resource 'skinning.shader.xml': Compiling shader context 'ATTRIBPASS'</td>
+</tr>
+<tr>
+<td width="100">1.188</td>
+<td class="info">Shader resource 'skinning.shader.xml': ShaderLog: [Linking] <pre>
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">1.188</td>
+<td class="info">Shader resource 'skinning.shader.xml': Compiling shader context 'SHADOWMAP'</td>
+</tr>
+<tr>
+<td width="100">1.188</td>
+<td class="info">Shader resource 'skinning.shader.xml': ShaderLog: [Linking] <pre>
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">1.188</td>
+<td class="info">Shader resource 'skinning.shader.xml': Compiling shader context 'LIGHTING'</td>
+</tr>
+<tr>
+<td width="100">1.219</td>
+<td class="info">Shader resource 'skinning.shader.xml': ShaderLog: [Linking] <pre>
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">1.219</td>
+<td class="info">Shader resource 'skinning.shader.xml': Compiling shader context 'AMBIENT'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Shader resource 'skinning.shader.xml': ShaderLog: [Linking] <pre>
+Warning: varying pos is written to in the vertex shader but not read in the fragment shader.
+ Link successful. The GLSL vertex shader will run in hardware. The GLSL fragment shader will run in hardware.</pre></td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.235</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.250</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.266</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.266</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.266</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.266</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.266</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.266</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.266</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.266</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.266</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.266</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.266</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.266</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.266</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.266</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.266</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.282</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.282</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.282</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.282</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.282</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.282</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.282</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.282</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.282</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.282</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.282</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.282</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.282</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.297</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.297</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.297</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.297</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.297</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.297</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.297</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.297</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.297</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.297</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.297</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.313</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.313</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.313</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.313</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+<tr>
+<td width="100">1.313</td>
+<td class="info">Adding nodes from SceneGraph resource 'man.scene.xml'</td>
+</tr>
+</table>
+</div>
+</body>
+</html>

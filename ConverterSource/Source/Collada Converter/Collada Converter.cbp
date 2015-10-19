@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Collada Converter" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Collada Converter\..\..\Build\Collada Converter\Debug Win32\$(RootNamespace)" prefix_auto="1" extension_auto="1" />
+				<Option object_output="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Collada Converter\..\..\Build\Collada Converter\Debug Win32" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add directory="..\Shared" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Collada Converter\..\..\Dependencies\Include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\Shared" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Collada Converter\..\..\Dependencies\Include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Collada Converter\..\..\Dependencies\Libs_VC8" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="xcopy C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Collada Converter\..\..\Build\Collada Converter\Debug Win32\ C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Collada Converter\../../Binaries/Win32 /y" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Collada Converter\..\..\Build\Collada Converter\Release Win32\$(RootNamespace)" prefix_auto="1" extension_auto="1" />
+				<Option object_output="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Collada Converter\..\..\Build\Collada Converter\Release Win32" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_CONSOLE" />
+					<Add option="-W" />
+					<Add directory="..\Shared" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Collada Converter\..\..\Dependencies\Include" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="..\Shared" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Collada Converter\..\..\Dependencies\Include" />
+				</ResourceCompiler>
+				<Linker>
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Collada Converter\..\..\Dependencies\Libs_VC8" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="xcopy C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Collada Converter\..\..\Build\Collada Converter\Release Win32\ C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Collada Converter\../../Binaries/Win32 /y" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Unit filename="converter.cpp" />
+		<Unit filename="daeMain.cpp" />
+		<Unit filename="main.cpp" />
+		<Unit filename="optimizer.cpp" />
+		<Unit filename="utils.cpp" />
+		<Unit filename="..\Shared\utXMLParser.cpp" />
+		<Unit filename="converter.h" />
+		<Unit filename="daeCommon.h" />
+		<Unit filename="daeLibAnimations.h" />
+		<Unit filename="daeLibControllers.h" />
+		<Unit filename="daeLibEffects.h" />
+		<Unit filename="daeLibGeometries.h" />
+		<Unit filename="daeLibImages.h" />
+		<Unit filename="daeLibMaterials.h" />
+		<Unit filename="daeLibVisualScenes.h" />
+		<Unit filename="daeMain.h" />
+		<Unit filename="optimizer.h" />
+		<Unit filename="utils.h" />
+		<Unit filename="..\Shared\utMath.h" />
+		<Unit filename="..\Shared\utPlatform.h" />
+		<Unit filename="..\Shared\utXMLParser.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

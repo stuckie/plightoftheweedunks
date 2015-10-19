@@ -1,0 +1,4 @@
+<Model name="weedunkShocker18" geometry="weedunkShocker18.geo">
+
+	<Mesh name="weedunkShocker18" material="weedunkShocker18/weedunkPortal_mat.material.xml" tx="-140.359" ty="-3.89788" tz="110.63" batchStart="0" batchCount="420" vertRStart="0" vertREnd="79" />
+</Model>

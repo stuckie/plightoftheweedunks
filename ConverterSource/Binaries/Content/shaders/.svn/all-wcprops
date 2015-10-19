@@ -1,0 +1,59 @@
+K 25
+svn:wc:ra_dav:version-url
+V 54
+/weedunks/!svn/ver/53/Horde3D/Binaries/Content/shaders
+END
+skybox.shader.xml
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/weedunks/!svn/ver/53/Horde3D/Binaries/Content/shaders/skybox.shader.xml
+END
+skinning.shader.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/weedunks/!svn/ver/53/Horde3D/Binaries/Content/shaders/skinning.shader.xml
+END
+standard.shader.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/weedunks/!svn/ver/53/Horde3D/Binaries/Content/shaders/standard.shader.xml
+END
+overlay.shader.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/weedunks/!svn/ver/53/Horde3D/Binaries/Content/shaders/overlay.shader.xml
+END
+skinning_metal.shader.xml
+K 25
+svn:wc:ra_dav:version-url
+V 80
+/weedunks/!svn/ver/53/Horde3D/Binaries/Content/shaders/skinning_metal.shader.xml
+END
+particle.shader.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/weedunks/!svn/ver/53/Horde3D/Binaries/Content/shaders/particle.shader.xml
+END
+postHDR.shader.xml
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/weedunks/!svn/ver/53/Horde3D/Binaries/Content/shaders/postHDR.shader.xml
+END
+parallax.shader.xml
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/weedunks/!svn/ver/53/Horde3D/Binaries/Content/shaders/parallax.shader.xml
+END
+deferredLighting.shader.xml
+K 25
+svn:wc:ra_dav:version-url
+V 82
+/weedunks/!svn/ver/53/Horde3D/Binaries/Content/shaders/deferredLighting.shader.xml
+END

@@ -1,0 +1,4 @@
+<Model name="upperSludge" geometry="upperSludge.geo">
+
+	<Mesh name="upperSludge" material="upperSludge/sludge_mat.material.xml" tx="-14.3325" ty="4.13997" tz="178.111" sx="0.1" sy="0.1" sz="0.1" batchStart="0" batchCount="186" vertRStart="0" vertREnd="55" />
+</Model>

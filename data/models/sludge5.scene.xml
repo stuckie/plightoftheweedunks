@@ -1,0 +1,4 @@
+<Model name="sludge5" geometry="sludge5.geo">
+
+	<Mesh name="sludge5" material="sludge5/sludge_mat.material.xml" tx="-48.8412" ty="-5.48699" tz="45.2947" sx="310.061" sy="310.061" sz="310.061" batchStart="0" batchCount="72" vertRStart="0" vertREnd="19" />
+</Model>

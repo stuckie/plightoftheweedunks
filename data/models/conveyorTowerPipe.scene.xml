@@ -1,0 +1,6 @@
+<Model name="conveyorTowerPipe" geometry="conveyorTowerPipe.geo">
+
+	<Mesh name="conveyorTowerPipe" material="conveyorTowerPipe/raisedStepsAndPipe_mat.material.xml" batchStart="0" batchCount="540" vertRStart="0" vertREnd="120">
+		<Mesh name="conveyorTowerPipe" material="conveyorTowerPipe/teethPipeSection_mat.material.xml" batchStart="540" batchCount="2232" vertRStart="121" vertREnd="680" />
+	</Mesh>
+</Model>

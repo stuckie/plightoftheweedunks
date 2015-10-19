@@ -1,0 +1,5 @@
+<Material>
+	<Shader source="skinning.shader.xml" />
+
+	<TexUnit unit="0" map="breakable_wall_texture_V12.tga" />
+</Material>

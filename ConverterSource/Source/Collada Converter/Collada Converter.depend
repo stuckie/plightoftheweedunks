@@ -1,0 +1,126 @@
+# depslib dependency file v1.0
+1207078976 source:c:\documents and settings\s.campbell\desktop\horde3d_sdk_1.0.0_beta1\horde3d\source\collada converter\daemain.cpp
+	"daeMain.h"
+	"utXMLParser.h"
+	"utils.h"
+
+1207078976 c:\documents and settings\s.campbell\desktop\horde3d_sdk_1.0.0_beta1\horde3d\source\collada converter\daemain.h
+	"utils.h"
+	"daeLibImages.h"
+	"daeLibEffects.h"
+	"daeLibMaterials.h"
+	"daeLibGeometries.h"
+	"daeLibVisualScenes.h"
+	"daeLibControllers.h"
+	"daeLibAnimations.h"
+
+1207078976 c:\documents and settings\s.campbell\desktop\horde3d_sdk_1.0.0_beta1\horde3d\source\collada converter\utils.h
+	"utMath.h"
+	<string>
+
+1207841342 c:\documents and settings\s.campbell\desktop\horde3d_sdk_1.0.0_beta1\horde3d\source\shared\utmath.h
+	<math.h>
+	<float.h>
+
+1207078976 c:\documents and settings\s.campbell\desktop\horde3d_sdk_1.0.0_beta1\horde3d\source\collada converter\daelibimages.h
+	"utXMLParser.h"
+	<string>
+	<vector>
+
+1207078976 c:\documents and settings\s.campbell\desktop\horde3d_sdk_1.0.0_beta1\horde3d\source\shared\utxmlparser.h
+	<stdlib.h>
+	<tchar.h>
+	<wchar.h>
+
+1207078976 c:\documents and settings\s.campbell\desktop\horde3d_sdk_1.0.0_beta1\horde3d\source\collada converter\daelibeffects.h
+	"utXMLParser.h"
+	"daeLibImages.h"
+	<string>
+	<vector>
+
+1207078976 c:\documents and settings\s.campbell\desktop\horde3d_sdk_1.0.0_beta1\horde3d\source\collada converter\daelibmaterials.h
+	"utXMLParser.h"
+	"daeLibEffects.h"
+	<string>
+	<vector>
+
+1207078976 c:\documents and settings\s.campbell\desktop\horde3d_sdk_1.0.0_beta1\horde3d\source\collada converter\daelibgeometries.h
+	"utXMLParser.h"
+	"daeCommon.h"
+	"utils.h"
+	"utMath.h"
+	<string>
+	<vector>
+
+1207078976 c:\documents and settings\s.campbell\desktop\horde3d_sdk_1.0.0_beta1\horde3d\source\collada converter\daecommon.h
+	"utXMLParser.h"
+	"utils.h"
+	<string>
+	<vector>
+
+1207078976 c:\documents and settings\s.campbell\desktop\horde3d_sdk_1.0.0_beta1\horde3d\source\collada converter\daelibvisualscenes.h
+	"utXMLParser.h"
+	"daeLibAnimations.h"
+	<string>
+	<vector>
+	<map>
+
+1207840028 c:\documents and settings\s.campbell\desktop\horde3d_sdk_1.0.0_beta1\horde3d\source\collada converter\daelibanimations.h
+	"utXMLParser.h"
+	"daeCommon.h"
+	"utils.h"
+	<string>
+	<vector>
+
+1207905698 c:\documents and settings\s.campbell\desktop\horde3d_sdk_1.0.0_beta1\horde3d\source\collada converter\daelibcontrollers.h
+	"utXMLParser.h"
+	<string>
+	<vector>
+
+1207862842 source:c:\documents and settings\s.campbell\desktop\horde3d_sdk_1.0.0_beta1\horde3d\source\collada converter\main.cpp
+	"daeMain.h"
+	"converter.h"
+	"utPlatform.h"
+	<windows.h>
+
+1207078976 c:\documents and settings\s.campbell\desktop\horde3d_sdk_1.0.0_beta1\horde3d\source\collada converter\converter.h
+	"daeMain.h"
+	"utMath.h"
+
+1207078976 c:\documents and settings\s.campbell\desktop\horde3d_sdk_1.0.0_beta1\horde3d\source\shared\utplatform.h
+
+1207078976 source:c:\documents and settings\s.campbell\desktop\horde3d_sdk_1.0.0_beta1\horde3d\source\collada converter\optimizer.cpp
+	"optimizer.h"
+	"converter.h"
+	<list>
+	<algorithm>
+
+1207078976 c:\documents and settings\s.campbell\desktop\horde3d_sdk_1.0.0_beta1\horde3d\source\collada converter\optimizer.h
+	<vector>
+	<set>
+
+1207078976 source:c:\documents and settings\s.campbell\desktop\horde3d_sdk_1.0.0_beta1\horde3d\source\collada converter\utils.cpp
+	"utils.h"
+	"utPlatform.h"
+	<iostream>
+	<windows.h>
+
+1207078976 source:c:\documents and settings\s.campbell\desktop\horde3d_sdk_1.0.0_beta1\horde3d\source\shared\utxmlparser.cpp
+	"utXMLParser.h"
+	<Windows.h>
+	<memory.h>
+	<assert.h>
+	<stdio.h>
+	<string.h>
+	<stdlib.h>
+	<widec.h>
+
+1207906086 source:c:\documents and settings\s.campbell\desktop\horde3d_sdk_1.0.0_beta1\horde3d\source\collada converter\converter.cpp
+	"converter.h"
+	"optimizer.h"
+	"utPlatform.h"
+	<fstream>
+	<sstream>
+	<direct.h>
+	<sys/stat.h>
+

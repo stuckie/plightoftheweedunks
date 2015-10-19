@@ -1,0 +1,4 @@
+<Model name="toothyTunnel" geometry="toothyTunnel.geo">
+
+	<Mesh name="toothyOutside" material="toothyTunnel/toothyOutside_mat.material.xml" batchStart="0" batchCount="5688" vertRStart="0" vertREnd="1611" />
+</Model>

@@ -1,0 +1,30 @@
+README for Linux Specific Issues
+--------------------------------
+
+You will require accelerated graphics drivers installed, be them from nVidia or ATi.
+ATi cards must use fglrx, and come up with interesting issues due to non-compliance with the OpenGL 2.0 spec ( non-power of two textures ), which sadly, can't be avoided.
+It's recommended to run this on nVidia cards - like in Windows.
+
+Min Reqs:
+Linux 2.6 Kernel
+SDL
+SDL_mixer ( with ogg vorbis support )
+ODE
+Horde3D ( supplied.. it's revision 43 from SVN )
+Lua 5.1
+Two USB gamepads with atleast 12 buttons .. analog stick optional
+
+See the main readme.txt for configuration options
+
+Issues
+------
+
+SDL_mixer may cause music to start popping and clicking after the first repeat.. basically either disable music, downgrade SDL_mixer, or max the music volume.
+This is an SDL_mixer issue, and nothing I can do, unfortunately...
+
+ATi cards don't like the game much... my ATi Mobility X1300 will run it on the "HDR" pipeline at 640x480 with ansiotropic at 8x and shadowmap at 2048, but stutters when new textures are loaded.
+I don't know if this is the same on other cards, but I'll expect so due to the large textures we use, and the non-standard sizes some of them are.
+
+Screen Resolution may not go back to what you originally had.. apologies for this.. you'll have to use whatever means your distro gives for resetting it.
+
+-- Steven "Stuckie" Campbell

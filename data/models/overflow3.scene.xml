@@ -1,0 +1,4 @@
+<Model name="overflow3" geometry="overflow3.geo">
+
+	<Mesh name="overflow3" material="overflow3/overflow_mat.material.xml" tx="-168.415" ty="0" tz="0" batchStart="0" batchCount="888" vertRStart="0" vertREnd="315" />
+</Model>

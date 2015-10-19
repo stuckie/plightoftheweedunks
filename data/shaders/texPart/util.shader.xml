@@ -1,0 +1,49 @@
+<Shader>
+	<Context id="GHOST_PASS">
+		<RenderConfig writeDepth="true" blendMode="REPLACE"/>
+		<VertexShader>
+			<DefCode>
+			<![CDATA[
+				varying vec2 texCoord;
+
+				void main( void )
+				{
+					texCoord = gl_MultiTexCoord0.st;
+					gl_Position = gl_ProjectionMatrix * gl_Vertex;
+				}
+			]]>
+			</DefCode>
+		</VertexShader>
+
+		<FragmentShader>
+			<DefCode>
+			<![CDATA[
+				uniform sampler2D tex0, tex1, tex2, tex3;
+				varying vec2 texCoord;
+
+				void main( void )
+				{
+					vec4 screenDepth = texture2D( tex3, texCoord );
+					vec4 playerCol = texture2D( tex0, texCoord );
+					vec4 playerDepth = texture2D( tex1, texCoord );
+				
+					if (playerDepth.z > screenDepth.z && 
+					!(playerCol.r==0.0&&playerCol.g==0.0&&playerCol.b==0.0))
+					{
+						gl_FragColor = texture2D( tex2, texCoord );
+						gl_FragColor.rgb *= 0.4; 
+						/*gl_FragColor.g *= 0.25;
+						gl_FragColor.b *= 0.25;*/
+						gl_FragColor.a = 1.0;
+					}
+					else
+					{
+						gl_FragColor = texture2D( tex2, texCoord );
+					}
+					gl_FragDepth = screenDepth.z;
+				}
+			]]>
+			</DefCode>
+		</FragmentShader>
+	</Context>
+</Shader>

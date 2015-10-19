@@ -1,0 +1,5 @@
+<Material>
+	<Shader source="skinning.shader.xml" />
+
+	<TexUnit unit="0" map="revolutionary_weedunk_diffuse_v5.tga" />
+</Material>

@@ -1,0 +1,4 @@
+<Model name="endlevelFloorblock1" geometry="endlevelFloorblock1.geo">
+
+	<Mesh name="endlevelFloorblock1" material="endlevelFloorblock1/brokenBridge_mat.material.xml" tx="-77.1797" ty="13.1792" tz="237.201" rx="-0" ry="90" rz="0" sx="4.42028" sy="2.23481" sz="1.45913" batchStart="0" batchCount="126" vertRStart="0" vertREnd="83" />
+</Model>

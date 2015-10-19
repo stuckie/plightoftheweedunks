@@ -1,0 +1,13 @@
+<Model name="f1 golden weedunkart meshes" geometry="f1 golden weedunkart meshes.geo">
+
+	<Mesh name="gw01" material="f1 golden weedunkart meshes/REv_weedunk.material.xml" tx="76.9601" ty="12.645" tz="4" batchStart="0" batchCount="5055" vertRStart="0" vertREnd="1142" />
+	<Mesh name="gw02" material="f1 golden weedunkart meshes/REv_weedunk.material.xml" tx="-26.7899" ty="-0.965135" tz="26.46" batchStart="5055" batchCount="5055" vertRStart="1143" vertREnd="2285" />
+	<Mesh name="gw03" material="f1 golden weedunkart meshes/REv_weedunk.material.xml" tx="67.9601" ty="-0.288492" tz="48.9" batchStart="10110" batchCount="5055" vertRStart="2286" vertREnd="3428" />
+	<Mesh name="gw04" material="f1 golden weedunkart meshes/REv_weedunk.material.xml" tx="77.2601" ty="-3.48072" tz="155.5" batchStart="15165" batchCount="5055" vertRStart="3429" vertREnd="4571" />
+	<Mesh name="gw05" material="f1 golden weedunkart meshes/REv_weedunk.material.xml" tx="-26.9975" ty="6.44048" tz="163.741" batchStart="20220" batchCount="5055" vertRStart="4572" vertREnd="5714" />
+	<Mesh name="gw06" material="f1 golden weedunkart meshes/REv_weedunk.material.xml" tx="84.1982" ty="14.5072" tz="214.818" batchStart="25275" batchCount="5055" vertRStart="5715" vertREnd="6857" />
+	<Mesh name="gw07" material="f1 golden weedunkart meshes/REv_weedunk.material.xml" tx="-79.7757" ty="14.5113" tz="198.22" batchStart="30330" batchCount="5055" vertRStart="6858" vertREnd="8000" />
+	<Mesh name="gw08" material="f1 golden weedunkart meshes/REv_weedunk.material.xml" tx="-67.6629" ty="19.1542" tz="158" batchStart="35385" batchCount="5055" vertRStart="8001" vertREnd="9143" />
+	<Mesh name="gw09" material="f1 golden weedunkart meshes/REv_weedunk.material.xml" tx="-139.929" ty="-3.53324" tz="107.025" batchStart="40440" batchCount="5055" vertRStart="9144" vertREnd="10286" />
+	<Mesh name="gw10" material="f1 golden weedunkart meshes/REv_weedunk.material.xml" tx="-27.0038" ty="5.45659" tz="25.8618" batchStart="45495" batchCount="5055" vertRStart="10287" vertREnd="11429" />
+</Model>

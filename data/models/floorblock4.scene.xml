@@ -1,0 +1,4 @@
+<Model name="floorblock4" geometry="floorblock4.geo">
+
+	<Mesh name="floorblock4" material="floorblock4/floorBlocks1_mat.material.xml" tx="-26.6607" ty="-14.0014" tz="34.7769" sx="0.1" sy="0.1" sz="0.1" batchStart="0" batchCount="90" vertRStart="0" vertREnd="23" />
+</Model>

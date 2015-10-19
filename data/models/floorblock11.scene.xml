@@ -1,0 +1,4 @@
+<Model name="floorblock11" geometry="floorblock11.geo">
+
+	<Mesh name="floorblock11" material="floorblock11/raisedStepsAndPipe_mat.material.xml" tx="-27.1493" ty="1.20055" tz="114.049" rx="-0" ry="180" rz="0" sx="0.1" sy="0.1" sz="0.1" batchStart="0" batchCount="126" vertRStart="0" vertREnd="65" />
+</Model>

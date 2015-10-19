@@ -1,0 +1,4 @@
+<Model name="westShockerPoster" geometry="westShockerPoster.geo">
+
+	<Mesh name="westShockerPoster" material="westShockerPoster/shockerPoster_mat.material.xml" tx="-45.4631" ty="22.038" tz="216.556" sx="0.102807" sy="1" sz="1" batchStart="0" batchCount="30" vertRStart="0" vertREnd="19" />
+</Model>

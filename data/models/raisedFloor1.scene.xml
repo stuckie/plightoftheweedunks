@@ -1,0 +1,4 @@
+<Model name="raisedFloor1" geometry="raisedFloor1.geo">
+
+	<Mesh name="raisedFloor1" material="raisedFloor1/brokenBridge_mat.material.xml" tx="-27.1168" ty="-16.4661" tz="70.5708" rx="-0" ry="-90" rz="0" batchStart="0" batchCount="462" vertRStart="0" vertREnd="307" />
+</Model>

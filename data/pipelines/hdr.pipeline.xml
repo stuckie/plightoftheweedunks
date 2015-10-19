@@ -1,0 +1,52 @@
+<!-- High Dynamic Range (HDR) Forward Shading Pipeline -->
+<Pipeline>
+	<EngineConfig occlusionCulling="true" />
+
+	<Setup>
+		<RenderTarget id="HDRBUF" depthBuf="true" numColBufs="1" format="RGBA16F" scale="1.0" maxSamples="16" />
+		<RenderTarget id="GHOST" depthBuf="true" numColBufs="1" format="RGBA8" scale="1.0" />
+	</Setup>
+	
+	<CommandQueue>
+		<Stage id = "Player ghost render">
+			<SwitchTarget target="GHOST" />
+			<ClearTarget depthBuf="true" colBuf0="true" />
+			<DrawGeometry context="AMBIENT" class="Player.Kohi" />
+			<DrawGeometry context="AMBIENT" class="Player.Grando" />
+			<DrawGeometry context="AMBIENT" class="Player.Weedunk" />
+		</Stage>
+	
+		<Stage id="Ambient" link="globalSettings.material.xml">
+			<SwitchTarget target="HDRBUF" />
+			<ClearTarget depthBuf="true" colBuf0="true" />
+			<DrawGeometry context="AMBIENT" class="~Translucent" />
+		</Stage>
+		
+		<Stage id="Lighting">
+			<DoForwardLightLoop class="~Translucent" />
+		</Stage>
+		
+		<Stage id="Glowing objects">
+			<SwitchTarget target="HDRBUF" />
+			<DrawGeometry context="GLOW"/>
+		</Stage>		
+		
+		<Stage id="Ghost Combination">
+			<SwitchTarget target="" />
+			<BindBuffer texUnit="0" target="GHOST" bufIndex="0" />
+			<BindBuffer texUnit="1" target="GHOST" bufIndex="32" />
+			<BindBuffer texUnit="2" target="HDRBUF" bufIndex="0" />
+			<BindBuffer texUnit="3" target="HDRBUF" bufIndex="32" />
+			<DrawQuad material="util.material.xml" context="GHOST_PASS" />
+		</Stage>
+	
+		<Stage id="Translucent">
+			<DrawGeometry context="TRANSLUCENT" class="Translucent" />
+		</Stage>
+		
+		<!-- Overlays -->
+		<Stage id="Overlays">
+			<DrawOverlays context="OVERLAY" />
+		</Stage>
+	</CommandQueue>
+</Pipeline>

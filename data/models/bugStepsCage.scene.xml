@@ -1,0 +1,4 @@
+<Model name="bugStepsCage" geometry="bugStepsCage.geo">
+
+	<Mesh name="bugStepsCage" material="bugStepsCage/pierMid_mat.material.xml" tx="0" ty="-182.532" tz="0" batchStart="0" batchCount="120" vertRStart="0" vertREnd="77" />
+</Model>

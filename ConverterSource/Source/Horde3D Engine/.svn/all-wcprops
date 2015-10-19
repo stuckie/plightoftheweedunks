@@ -1,0 +1,311 @@
+K 25
+svn:wc:ra_dav:version-url
+V 53
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine
+END
+Horde3D Engine.vcproj
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/Horde3D%20Engine.vcproj
+END
+egCom.h
+K 25
+svn:wc:ra_dav:version-url
+V 61
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egCom.h
+END
+egTextures.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egTextures.cpp
+END
+egResource.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egResource.cpp
+END
+egPrimitives.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egPrimitives.cpp
+END
+egGeometry.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egGeometry.cpp
+END
+egCamera.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egCamera.h
+END
+egMaterial.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egMaterial.cpp
+END
+egSceneGraphRes.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egSceneGraphRes.h
+END
+egExtensions.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egExtensions.cpp
+END
+egModel.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egModel.cpp
+END
+egScene.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egScene.h
+END
+egPipeline.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egPipeline.cpp
+END
+egRenderer.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egRenderer.cpp
+END
+egRendererBase.h
+K 25
+svn:wc:ra_dav:version-url
+V 70
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egRendererBase.h
+END
+egShader.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egShader.cpp
+END
+egParticle.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egParticle.h
+END
+egModules.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egModules.cpp
+END
+egLight.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egLight.h
+END
+egCom.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egCom.cpp
+END
+egMain.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egMain.cpp
+END
+Horde3D Engine.cbp
+K 25
+svn:wc:ra_dav:version-url
+V 74
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/Horde3D%20Engine.cbp
+END
+egAnimation.h
+K 25
+svn:wc:ra_dav:version-url
+V 67
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egAnimation.h
+END
+utImage.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/utImage.h
+END
+egAnimatables.h
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egAnimatables.h
+END
+utOpenGL.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/utOpenGL.h
+END
+Horde3D Engine.vcproj.UAD.s.campbell.user
+K 25
+svn:wc:ra_dav:version-url
+V 97
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/Horde3D%20Engine.vcproj.UAD.s.campbell.user
+END
+egCamera.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egCamera.cpp
+END
+egTextures.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egTextures.h
+END
+egSceneGraphRes.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 73
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egSceneGraphRes.cpp
+END
+egResource.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egResource.h
+END
+Horde3D Engine.layout
+K 25
+svn:wc:ra_dav:version-url
+V 77
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/Horde3D%20Engine.layout
+END
+egScene.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egScene.cpp
+END
+egPrimitives.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egPrimitives.h
+END
+egGeometry.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egGeometry.h
+END
+egRendererBase.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 72
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egRendererBase.cpp
+END
+egParticle.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egParticle.cpp
+END
+egMaterial.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egMaterial.h
+END
+egExtensions.h
+K 25
+svn:wc:ra_dav:version-url
+V 68
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egExtensions.h
+END
+egModel.h
+K 25
+svn:wc:ra_dav:version-url
+V 63
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egModel.h
+END
+egLight.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egLight.cpp
+END
+egPrerequisites.h
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egPrerequisites.h
+END
+egPipeline.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egPipeline.h
+END
+egRenderer.h
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egRenderer.h
+END
+egShader.h
+K 25
+svn:wc:ra_dav:version-url
+V 64
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egShader.h
+END
+egModules.h
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egModules.h
+END
+egAnimation.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 69
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egAnimation.cpp
+END
+utImage.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 65
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/utImage.cpp
+END
+egAnimatables.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 71
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/egAnimatables.cpp
+END
+makefile
+K 25
+svn:wc:ra_dav:version-url
+V 62
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/makefile
+END
+utOpenGL.cpp
+K 25
+svn:wc:ra_dav:version-url
+V 66
+/weedunks/!svn/ver/53/Horde3D/Source/Horde3D%20Engine/utOpenGL.cpp
+END

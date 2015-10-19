@@ -1,0 +1,71 @@
+<Model name="Revolutionary_weedunk" geometry="Revolutionary_weedunk.geo">
+	<Joint name="weedunk_v15b_weighting_done___attach_joints_added_and_hammer__Root" tx="3.83723" ty="0.868333" tz="28.921" rx="-0" ry="7.01222" rz="90" jointIndex="1">
+		<Joint name="Pelvis" rx="14.4775" ry="-3.96711" rz="-15.5041" jointIndex="2">
+			<Joint name="Spine1" tx="0.603116" ty="0" tz="0" jointIndex="3">
+				<Joint name="Spine2" tx="0.721755" ty="0" tz="0" rx="0.763375" ry="14.9822" rz="-3.5973" jointIndex="4">
+					<Joint name="Head" tx="0.626451" ty="0" tz="0" rx="-15.7326" ry="-0.996869" rz="3.7373" jointIndex="5">
+						<Joint name="LtEar1" tx="0.776618" ty="-0.795962" tz="0" rx="-0" ry="0" rz="-97.2165" jointIndex="6">
+							<Joint name="LtEar2" tx="1.24618" ty="0" tz="0" rx="-0" ry="0" rz="42.399" jointIndex="7">
+								<Joint name="LtEar3" tx="1.19098" ty="0" tz="0" rx="-0" ry="0" rz="-22.3569" jointIndex="8" />
+							</Joint>
+						</Joint>
+						<Joint name="RtEar1" tx="0.776615" ty="0.795962" tz="0" rx="-0" ry="180" rz="-67.2164" jointIndex="9">
+							<Joint name="RtEar2" tx="-1.24618" ty="-8e-006" tz="0" rx="-0" ry="0" rz="39.4419" jointIndex="10">
+								<Joint name="RtEar3" tx="-1.19098" ty="9e-006" tz="0" rx="-0" ry="0" rz="-22.3569" jointIndex="11" />
+							</Joint>
+						</Joint>
+						<Joint name="Brain_Attach" tx="2" ty="0" tz="0" jointIndex="12" />
+					</Joint>
+					<Joint name="LtArmClavicle" tx="0.323604" ty="-0.316331" tz="0" rx="-0" ry="0" rz="-90" jointIndex="13">
+						<Joint name="LtArmShoulder" tx="0.738683" ty="0.037751" tz="0" rx="-0" ry="0" rz="-45" jointIndex="14">
+							<Joint name="LtArmElbow" tx="0.540219" ty="0" tz="-0.032028" rx="-0" ry="0" rz="-15" jointIndex="15">
+								<Joint name="LtArmWrist" tx="0.596368" ty="0" tz="0.003631" jointIndex="16">
+									<Joint name="LtPinkyRoot" tx="0.300124" ty="-0.05459" tz="-0.174564" rx="-0" ry="0" rz="-15" jointIndex="17">
+										<Joint name="LtPinkyMid" tx="0.20149" ty="-0.013544" tz="0" rx="-0" ry="0" rz="-30" jointIndex="18" />
+									</Joint>
+									<Joint name="LtIndexRoot" tx="0.291486" ty="-0.05459" tz="0.180333" rx="-0" ry="0" rz="-30" jointIndex="19">
+										<Joint name="LtIndexMid" tx="0.208391" ty="-0.013544" tz="0" rx="-0" ry="0" rz="-45" jointIndex="20" />
+									</Joint>
+									<Joint name="LtThumbRoot" tx="0.108553" ty="-0.122526" tz="0.335623" rx="30.2968" ry="-133.946" rz="-114.902" jointIndex="21">
+										<Joint name="LtThumbMid" tx="0.175256" ty="0" tz="0" rx="-81.4058" ry="165.2" rz="-165.958" jointIndex="22" />
+									</Joint>
+								</Joint>
+							</Joint>
+						</Joint>
+					</Joint>
+					<Joint name="RtArmClavicle" tx="0.323606" ty="0.316332" tz="0" rx="-0" ry="180" rz="-90" jointIndex="23">
+						<Joint name="RtArmShoulder" tx="-0.738685" ty="-0.03775" tz="0" rx="-41.6342" ry="-67.6044" rz="49.9574" jointIndex="24">
+							<Joint name="RtArmElbow" tx="-0.54022" ty="0" tz="0.032028" rx="7.35877" ry="-12.8991" rz="-3.15888" jointIndex="25">
+								<Joint name="RtArmWrist" tx="-0.59637" ty="0" tz="-0.003631" jointIndex="26">
+									<Joint name="RtPinkyRoot" tx="-0.30012" ty="0.05459" tz="0.174564" rx="-0" ry="0" rz="-60" jointIndex="27">
+										<Joint name="RtPinkyMid" tx="-0.20149" ty="0.01355" tz="0" rx="-0" ry="0" rz="-90" jointIndex="28" />
+									</Joint>
+									<Joint name="RtIndexRoot" tx="-0.29148" ty="0.05459" tz="-0.180333" rx="-0" ry="0" rz="-60" jointIndex="29">
+										<Joint name="RtIndexMid" tx="-0.20839" ty="0.01355" tz="0" rx="-0" ry="0" rz="-90" jointIndex="30" />
+									</Joint>
+									<Joint name="RtThumbRoot" tx="-0.10855" ty="0.12253" tz="-0.335623" rx="-24.417" ry="-178.307" rz="-90.7001" jointIndex="31">
+										<Joint name="RtThumbMid" tx="-0.175256" ty="2e-006" tz="3e-006" rx="-81.4058" ry="165.2" rz="134.042" jointIndex="32" />
+									</Joint>
+									<Joint name="Hammer_Attach" tx="-0.1" ty="0.2" tz="0" rx="-0" ry="24" rz="0" jointIndex="33" />
+								</Joint>
+							</Joint>
+						</Joint>
+					</Joint>
+				</Joint>
+			</Joint>
+			<Joint name="LtHip" tx="-0.188266" ty="-0.68635" tz="-0.024538" rx="28.3528" ry="-130.939" rz="-8.47827" jointIndex="34">
+				<Joint name="LtKnee" tx="0.352265" ty="0" tz="-0.028962" rx="-0" ry="-63.4037" rz="0" jointIndex="35">
+					<Joint name="LtAnkle" tx="0.26106" ty="0" tz="0.028962" rx="-2.03833" ry="-163.726" rz="-101.854" jointIndex="36" />
+				</Joint>
+			</Joint>
+			<Joint name="RtHip" tx="-0.188266" ty="0.68635" tz="-0.024538" rx="-16.9299" ry="-19.7076" rz="0.0776791" jointIndex="37">
+				<Joint name="RtKnee" tx="-0.352264" ty="0" tz="0.028962" rx="-0" ry="11.0308" rz="0" jointIndex="38">
+					<Joint name="RtAnkle" tx="-0.26106" ty="0" tz="-0.028962" rx="1.01086" ry="7.98059" rz="-84.4372" jointIndex="39" />
+				</Joint>
+			</Joint>
+		</Joint>
+	</Joint>
+
+	<Mesh name="weedunk_v15b_weighting_done___attach_joints_added_and_hammer__weedunkMESH" material="Revolutionary_weedunk/REv_weedunk.material.xml" batchStart="0" batchCount="4812" vertRStart="0" vertREnd="1094" />
+	<Mesh name="pSphere1" material="Revolutionary_weedunk/REv_weedunk.material.xml" tx="5.50905" ty="2.07262" tz="25.649" rx="-5.70914" ry="0.833679" rz="-8.32222" sx="0.791629" sy="0.791628" sz="0.791628" batchStart="4812" batchCount="246" vertRStart="1095" vertREnd="1142" />
+</Model>

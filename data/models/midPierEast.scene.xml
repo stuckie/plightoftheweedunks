@@ -1,0 +1,4 @@
+<Model name="midPierEast" geometry="midPierEast.geo">
+
+	<Mesh name="midPierEast" material="midPierEast/pierMid_mat.material.xml" batchStart="0" batchCount="102" vertRStart="0" vertREnd="67" />
+</Model>

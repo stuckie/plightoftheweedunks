@@ -1,0 +1,4 @@
+<Model name="noAccessPoster" geometry="noAccessPoster.geo">
+
+	<Mesh name="noAccessPoster" material="noAccessPoster/noAccess_mat.material.xml" tx="-63.3677" ty="6.52691" tz="156.831" sx="0.068079" sy="0.711783" sz="1" batchStart="0" batchCount="30" vertRStart="0" vertREnd="19" />
+</Model>

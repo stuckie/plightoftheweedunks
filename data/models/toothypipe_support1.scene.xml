@@ -1,0 +1,4 @@
+<Model name="toothypipe_support1" geometry="toothypipe_support1.geo">
+
+	<Mesh name="toothypipe_support1" material="toothypipe_support1/toothySupport_mat.material.xml" tx="60.0317" ty="8.69965" tz="4.03532" rx="-0" ry="180" rz="90" sx="0.160848" sy="0.160848" sz="0.185964" batchStart="0" batchCount="666" vertRStart="0" vertREnd="334" />
+</Model>

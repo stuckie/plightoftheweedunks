@@ -1,0 +1,35 @@
+<!-- Forward Shading Pipeline -->
+<Pipeline>
+	<EngineConfig occlusionCulling="true" />
+	
+	<Setup>
+		<RenderTarget id="SCREEN" depthBuf="true" numColBufs="1" format="RGBA32f" scale="1.0" />
+		<RenderTarget id="GHOST" depthBuf="true" numColBufs="1" format="RGBA16f" scale="1.0" />
+	</Setup>
+	
+	<CommandQueue>
+		<Stage id="Geometry" link="globalSettings.material.xml">
+			<SwitchTarget target="SCREEN" />
+			<ClearTarget depthBuf="true" colBuf0="true" />
+			<DrawGeometry context="AMBIENT" class="~Translucent" />
+			
+			<SwitchTarget target="GHOST" />
+			<ClearTarget depthBuf="true" colBuf0="true" />
+			<DrawGeometry context="AMBIENT" class="Player.Kohi" />
+			<DrawGeometry context="AMBIENT" class="Player.Grando" />
+			<DrawGeometry context="AMBIENT" class="Player.Weedunk" />
+			
+			<SwitchTarget target="" />
+			<BindBuffer texUnit="0" target="GHOST" bufIndex="0" />
+			<BindBuffer texUnit="1" target="GHOST" bufIndex="32" />
+			<BindBuffer texUnit="2" target="SCREEN" bufIndex="0" />
+			<BindBuffer texUnit="3" target="SCREEN" bufIndex="32" />
+			<DrawQuad material="util.material.xml" context="GHOST_PASS" />
+			
+			<DrawGeometry context="TRANSLUCENT" />
+			
+			<SwitchTarget target="" />
+			<DrawOverlays context="OVERLAY" />
+		</Stage>
+	</CommandQueue>
+</Pipeline>

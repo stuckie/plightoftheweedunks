@@ -1,0 +1,5 @@
+<Material>
+	<Shader source="skinning.shader.xml" />
+
+	<TexUnit unit="0" map="conveyer_belt_mincher_etc_v21.tga" />
+</Material>

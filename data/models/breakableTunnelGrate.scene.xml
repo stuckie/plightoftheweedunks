@@ -1,0 +1,4 @@
+<Model name="breakableTunnelGrate" geometry="breakableTunnelGrate.geo">
+
+	<Mesh name="breakableTunnelGrate" material="breakableTunnelGrate/breakableBoards_mat.material.xml" tx="-66.8373" ty="19.02" tz="215.596" batchStart="0" batchCount="216" vertRStart="0" vertREnd="143" />
+</Model>

@@ -1,0 +1,5 @@
+<Material>
+	<Shader source="skinning.shader.xml" />
+
+	<TexUnit unit="0" map="toothy_outside_test_colour_v4.tga" />
+</Material>

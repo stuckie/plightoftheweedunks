@@ -1,0 +1,4 @@
+<Model name="floorblock8" geometry="floorblock8.geo">
+
+	<Mesh name="floorblock8" material="floorblock8/pierMid_mat.material.xml" tx="-141.614" ty="-14.6874" tz="109.605" sx="0.1" sy="0.1" sz="0.1" batchStart="0" batchCount="84" vertRStart="0" vertREnd="21" />
+</Model>

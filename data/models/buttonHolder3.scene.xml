@@ -1,0 +1,4 @@
+<Model name="buttonHolder3" geometry="buttonHolder3.geo">
+
+	<Mesh name="buttonHolder3" material="buttonHolder3/buttonHolder_mat.material.xml" tx="60.5313" ty="-0.587053" tz="57.3425" batchStart="0" batchCount="600" vertRStart="0" vertREnd="152" />
+</Model>

@@ -1,0 +1,4 @@
+<Model name="kohi_ BELLMESH" geometry="kohi_BELLMESH.geo">
+
+	<Mesh name="BellMesh" material="kohi_BELLMESH/KohiMat.material.xml" batchStart="0" batchCount="804" vertRStart="0" vertREnd="194" />
+</Model>

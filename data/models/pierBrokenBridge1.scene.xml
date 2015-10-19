@@ -1,0 +1,4 @@
+<Model name="pierBrokenBridge1" geometry="pierBrokenBridge1.geo">
+
+	<Mesh name="pierBrokenBridge1" material="pierBrokenBridge1/brokenBridge_mat.material.xml" tx="-54.8679" ty="13.7546" tz="198.192" batchStart="0" batchCount="462" vertRStart="0" vertREnd="281" />
+</Model>

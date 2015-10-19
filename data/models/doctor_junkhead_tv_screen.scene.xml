@@ -1,0 +1,4 @@
+<Model name="doctor_junkhead_tv_screen" geometry="doctor_junkhead_tv_screen.geo">
+
+	<Mesh name="doctor_junkhead_tv_screen" material="doctor_junkhead_tv_screen/tv_mat.material.xml" tx="-44.941" ty="-1.37542" tz="22.5273" rx="-0" ry="180" rz="0" sx="0.370199" sy="0.370199" sz="0.370199" batchStart="0" batchCount="678" vertRStart="0" vertREnd="178" />
+</Model>

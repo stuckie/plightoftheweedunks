@@ -1,0 +1,5 @@
+<Material class="Player.Weedunk">
+	<Shader source="skinning.shader.xml" />
+
+	<TexUnit unit="0" map="weedunkRED_diffuse.tga" />
+</Material>

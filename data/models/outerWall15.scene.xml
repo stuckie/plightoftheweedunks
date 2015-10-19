@@ -1,0 +1,4 @@
+<Model name="outerWall15" geometry="outerWall15.geo">
+
+	<Mesh name="outerWall15" material="outerWall15/wall_mat.material.xml" tx="0" ty="-0.017685" tz="0" batchStart="0" batchCount="9" vertRStart="0" vertREnd="4" />
+</Model>

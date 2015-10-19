@@ -1,0 +1,4 @@
+<Model name="toothyWallConnector" geometry="toothyWallConnector.geo">
+
+	<Mesh name="toothyWallConnector" material="toothyWallConnector/teethPipeSection_mat.material.xml" tx="83.4086" ty="9.12889" tz="4.06076" rx="-0" ry="0" rz="90" sx="3.17025" sy="3.17025" sz="3.17025" batchStart="0" batchCount="1116" vertRStart="0" vertREnd="279" />
+</Model>

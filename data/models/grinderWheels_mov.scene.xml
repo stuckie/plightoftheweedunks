@@ -1,0 +1,4 @@
+<Model name="grinderWheels_mov" geometry="grinderWheels_mov.geo">
+
+	<Mesh name="grinderWheels_mov" material="grinderWheels_mov/conveyerBeltMincer_mat.material.xml" tx="-7.92213" ty="0.065551" tz="4.00912" batchStart="0" batchCount="1536" vertRStart="0" vertREnd="803" />
+</Model>

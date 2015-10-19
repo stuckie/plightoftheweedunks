@@ -1,0 +1,4 @@
+<Model name="bugSteps1" geometry="bugSteps1.geo">
+
+	<Mesh name="bugSteps1" material="bugSteps1/bugSteps.material.xml" tx="-26.1828" ty="-8.32143" tz="163.926" rx="-0" ry="180" rz="0" sx="0.415948" sy="0.509156" sz="0.508865" batchStart="0" batchCount="2808" vertRStart="0" vertREnd="1279" />
+</Model>

@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Horde3D Engine" />
+		<Option makefile="makefile" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug Win32">
+				<Option output="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\..\Build\Horde3D Engine\Debug Win32\$(RootNamespace)" prefix_auto="1" extension_auto="1" />
+				<Option object_output="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\..\Build\Horde3D Engine\Debug Win32" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-D_DEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DHORDE3D_EXPORTS" />
+					<Add option="-W" />
+					<Add option="-g" />
+					<Add option="-O0" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\Shared" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\..\Dependencies\Include" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\..\Extensions" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\..\..\Extensions" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\Shared" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\..\Dependencies\Include" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\..\Extensions" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\..\..\Extensions" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="opengl32" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\..\Dependencies\Libs_VC8" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\..\Build" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="xcopy C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\..\Build\Horde3D Engine\Debug Win32\ C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\../../Binaries/Win32 /y&#x0D;&#x0A;xcopy $(TargetDir)$(RootNamespace)_vc8.lib C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\../../Bindings/C++ /y&#x0D;&#x0A;" />
+				</ExtraCommands>
+			</Target>
+			<Target title="Release Win32">
+				<Option output="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\..\Build\Horde3D Engine\Release Win32\$(RootNamespace)" prefix_auto="1" extension_auto="1" />
+				<Option object_output="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\..\Build\Horde3D Engine\Release Win32" />
+				<Option type="3" />
+				<Option compiler="gcc" />
+				<Option createDefFile="1" />
+				<Option createStaticLib="1" />
+				<Compiler>
+					<Add option="-DWIN32" />
+					<Add option="-DNDEBUG" />
+					<Add option="-D_WINDOWS" />
+					<Add option="-D_USRDLL" />
+					<Add option="-DHORDE3D_EXPORTS" />
+					<Add option="-W" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\Shared" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\..\Dependencies\Include" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\..\Extensions" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\..\..\Extensions" />
+				</Compiler>
+				<ResourceCompiler>
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\Shared" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\..\Dependencies\Include" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\..\Extensions" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\..\..\Extensions" />
+				</ResourceCompiler>
+				<Linker>
+					<Add library="opengl32" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\..\Dependencies\Libs_VC8" />
+					<Add directory="C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\..\Build" />
+				</Linker>
+				<ExtraCommands>
+					<Add after="xcopy C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\..\..\Build\Horde3D Engine\Release Win32\ C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\../../Binaries/Win32 /y&#x0D;&#x0A;xcopy $(TargetDir)$(RootNamespace)_vc8.lib C:\Documents and Settings\s.campbell\Desktop\Horde3D_SDK_1.0.0_Beta1\Horde3D\Source\Horde3D Engine\../../Bindings/C++ /y&#x0D;&#x0A;" />
+				</ExtraCommands>
+			</Target>
+		</Build>
+		<Unit filename="egAnimatables.cpp" />
+		<Unit filename="egAnimation.cpp" />
+		<Unit filename="egCamera.cpp" />
+		<Unit filename="egCom.cpp" />
+		<Unit filename="egExtensions.cpp" />
+		<Unit filename="egGeometry.cpp" />
+		<Unit filename="egLight.cpp" />
+		<Unit filename="egMain.cpp" />
+		<Unit filename="egMaterial.cpp" />
+		<Unit filename="egModel.cpp" />
+		<Unit filename="egModules.cpp" />
+		<Unit filename="egParticle.cpp" />
+		<Unit filename="egPipeline.cpp" />
+		<Unit filename="egPrimitives.cpp" />
+		<Unit filename="egRenderer.cpp" />
+		<Unit filename="egRendererBase.cpp" />
+		<Unit filename="egResource.cpp" />
+		<Unit filename="egScene.cpp" />
+		<Unit filename="egSceneGraphRes.cpp" />
+		<Unit filename="egShader.cpp" />
+		<Unit filename="egTextures.cpp" />
+		<Unit filename="utImage.cpp" />
+		<Unit filename="utOpenGL.cpp" />
+		<Unit filename="..\Shared\utXMLParser.cpp" />
+		<Unit filename="egAnimatables.h" />
+		<Unit filename="egAnimation.h" />
+		<Unit filename="egCamera.h" />
+		<Unit filename="egCom.h" />
+		<Unit filename="egExtensions.h" />
+		<Unit filename="egGeometry.h" />
+		<Unit filename="egLight.h" />
+		<Unit filename="egMaterial.h" />
+		<Unit filename="egModel.h" />
+		<Unit filename="egModules.h" />
+		<Unit filename="egParticle.h" />
+		<Unit filename="egPipeline.h" />
+		<Unit filename="egPrerequisites.h" />
+		<Unit filename="egPrimitives.h" />
+		<Unit filename="egRenderer.h" />
+		<Unit filename="egRendererBase.h" />
+		<Unit filename="egResource.h" />
+		<Unit filename="egScene.h" />
+		<Unit filename="egSceneGraphRes.h" />
+		<Unit filename="egShader.h" />
+		<Unit filename="egTextures.h" />
+		<Unit filename="..\Shared\utDebug.h" />
+		<Unit filename="utImage.h" />
+		<Unit filename="..\Shared\utMath.h" />
+		<Unit filename="utOpenGL.h" />
+		<Unit filename="..\Shared\utPlatform.h" />
+		<Unit filename="..\Shared\utXMLParser.h" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

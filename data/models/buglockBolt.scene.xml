@@ -1,0 +1,5 @@
+<Model name="buglockBolt" geometry="buglockBolt.geo">
+	<Joint name="buglockBoltJoint" tx="-32.8188" ty="-0.487911" tz="157.034" jointIndex="1" />
+
+	<Mesh name="buglockBolt" material="buglockBolt/wall_mat.material.xml" batchStart="0" batchCount="387" vertRStart="0" vertREnd="181" />
+</Model>

@@ -1,0 +1,11 @@
+<Model name="jumptest" geometry="jumptest.geo">
+
+	<Mesh name="grando_inflate" material="jumptest/lambert21.material.xml" tx="4.72805" ty="8.48828" tz="-55.6435" sx="14" sy="8" sz="14" batchStart="0" batchCount="36" vertRStart="0" vertREnd="23" />
+	<Mesh name="kohi_explosion" material="jumptest/lambert21.material.xml" tx="34.7652" ty="4.43781" tz="-53.2752" sx="4" sy="4" sz="4" batchStart="36" batchCount="1140" vertRStart="24" vertREnd="253" />
+	<Mesh name="pCube1" material="jumptest/lambert20.material.xml" tx="-9.18883" ty="-0.235647" tz="-16.6941" sx="101.046" sy="0.45261" sz="103.193" batchStart="1176" batchCount="36" vertRStart="254" vertREnd="277" />
+	<Mesh name="pCube6" material="jumptest/lambert1.material.xml" tx="30.5276" ty="0.143228" tz="10.8018" sx="26.346" sy="0.903654" sz="5.28926" batchStart="1212" batchCount="36" vertRStart="278" vertREnd="301" />
+	<Mesh name="pCube7" material="jumptest/lambert1.material.xml" tx="30.1254" ty="2.342" tz="2.61984" sx="25.551" sy="0.418566" sz="9.27975" batchStart="1248" batchCount="36" vertRStart="302" vertREnd="325" />
+	<Mesh name="pCube9" material="jumptest/lambert1.material.xml" tx="29.5171" ty="4.28053" tz="-9.9505" sx="24.5448" sy="0.418215" sz="10.3663" batchStart="1284" batchCount="36" vertRStart="326" vertREnd="349" />
+	<Mesh name="pCube10" material="jumptest/lambert1.material.xml" tx="17.8629" ty="0.894271" tz="-56.764" sx="47.0113" sy="7.19073" sz="27.3626" batchStart="1320" batchCount="36" vertRStart="350" vertREnd="373" />
+	<Mesh name="pCube11" material="jumptest/lambert1.material.xml" tx="17.8629" ty="17.8099" tz="-64.4179" sx="47.0113" sy="0.914157" sz="8.4019" batchStart="1356" batchCount="36" vertRStart="374" vertREnd="397" />
+</Model>
